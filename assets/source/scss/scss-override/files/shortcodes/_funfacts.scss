@@ -1,0 +1,24 @@
+/*
+ * Shortcode: funfacts.scss
+ * -----------------------------------------------
+*/
+.funfact-current-item-style1 {
+	background: #fff;
+	z-index: 1;
+	position: relative;
+	padding: 20px 60px;
+	max-width: 360px;
+	.funfact-icon {
+		float: left;
+		margin-right: 30px;
+		i {
+			font-size: 48px;
+			color: #FF4F00;
+			margin-top: 10px;
+			display: inline-block;
+		}
+	}
+	.funfact-detail-box {
+		overflow: hidden;
+	}
+}

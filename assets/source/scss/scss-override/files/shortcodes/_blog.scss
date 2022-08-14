@@ -1,0 +1,47 @@
+/*
+ * Shortcode: common.scss
+ * -----------------------------------------------
+*/
+.blog-style1-current-theme {
+  .entry-header {
+    .post-thumb {
+      .thumb {
+        overflow: hidden;
+        img {
+          border-radius: 10px 10px 0 0;
+          transform: scale(1);
+          @include transition(all .4s ease-in-out);
+        }
+      }
+    }
+  }
+  .entry-content {
+    padding: 45px;
+    background: #FFF;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    .entry-title {
+      a {
+        &:hover {
+          color: var(--theme-color1);
+        }
+      }
+    }
+    .blog-meta {
+      font-family: $font-current-theme2;
+    }
+  }
+  .blog-link-btn {
+  }
+  &:hover {
+    .entry-header {
+      .post-thumb {
+        .thumb {
+          img {
+            transform: scale(1.1) rotate(1deg);
+          }
+        }
+      }
+    }
+  }
+}

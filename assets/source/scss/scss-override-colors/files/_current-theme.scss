@@ -1,0 +1,38 @@
+/*
+ * Shortcode: current-theme.scss
+ * -----------------------------------------------
+*/
+.current-btn-style {
+  background: $theme-color1;
+  &:after {
+    border-color: transparent $theme-color1 transparent transparent;
+  }
+  &:hover {
+    &:after {
+    }
+  }
+}
+// Feature-icon
+
+.image-box {
+  &:after {
+    background: $theme-color1;
+  }
+}
+.image-box-style2 {
+  &:after {
+    background: $theme-color1;
+  }
+}
+.call-anytime-box {
+  .icon-box {
+    i {
+      background: $theme-color1;
+    }
+  }
+}
+.sub-title-side-line {
+  &:before {
+    background: $theme-color1;
+  }
+}

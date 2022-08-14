@@ -1,0 +1,31 @@
+/*
+ * Shortcode: projects.scss
+ * -----------------------------------------------
+*/
+.tm-sc-projects {
+	&.projects-current-theme {
+		.tm-project {
+			.thumb {
+				img {
+				}
+				.details {
+					.title {
+					}
+				}
+				&:after {
+			    background: $theme-color1;
+				}
+			}
+		}
+		&:hover {
+			.thumb {
+				.details {
+					.title {
+					}
+				}
+				&:after {
+				}
+			}
+		}
+	}
+}

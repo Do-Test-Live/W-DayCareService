@@ -1,0 +1,70 @@
+/*
+ * Shortcode: testimonials.scss
+ * -----------------------------------------------
+*/
+.testimonial-current-style1 {
+  .testimonial-upper {
+    padding: 60px;
+    background: var(--theme-color4);
+    position: relative;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 0;
+    &:after {
+      position: absolute;
+      content: "";
+      bottom: -100px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      left: 0;
+      border-width: 100px 100px 0 0;
+      transition: 500ms;
+      border-color: var(--theme-color4) transparent transparent transparent;
+      z-index: -1;
+    }
+    .quote-icon {
+      position: absolute;
+      top: 35%;
+      left: 170px;
+      right: 0;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 90px;
+      opacity: 0.1;
+    }
+    .author-text {
+      color: #fff;
+    }
+  }
+  .author-thumb{
+    @include transition(all .3s ease);
+  }
+  &:hover{
+    .author-thumb{
+     transform: rotate(360deg);
+    }
+  }
+
+
+
+
+
+
+  &.testimonial-theme-colored1{
+    .testimonial-upper {
+      background: var(--theme-color1);
+      &:after {
+        border-color: var(--theme-color1) transparent transparent transparent;
+      }
+    }
+  }
+  &.testimonial-theme-colored3{
+    .testimonial-upper {
+      background: var(--theme-color3);
+      &:after {
+        border-color: var(--theme-color3) transparent transparent transparent;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,22 @@
+/*
+ * form.scss
+ * -----------------------------------------------
+*/
+.appointment-style-current-theme {
+	background: #fff;
+	padding: 60px;
+	border-radius: 5px;
+	box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
+	form {
+		input {
+			background: #F1F5F8;
+			border: none;
+			height: 70px;
+			padding: 35px 30px;
+		}
+		textarea {
+			background: #F1F5F8;
+			border: none;
+		}
+	}
+}

@@ -1,0 +1,33 @@
+/*
+ * Shortcode: staff.scss
+ * -----------------------------------------------
+*/
+.tm-sc-staff {
+  &.staff-current-theme {
+    .tm-staff {
+      .thumb {
+        img {
+          border: 10px solid #fff;
+          transform: scale(1);
+          @include transition(all .4s ease-in-out);
+        }
+      }
+      .details {
+        .title {
+        }
+        .designation {
+        }
+      }
+    }
+    &:hover {
+      .thumb {
+        img {
+          transform: scale(1.05);
+          border: 10px solid var(--theme-color1);
+        }
+      }
+      .details {
+      }
+    }
+  }
+}
