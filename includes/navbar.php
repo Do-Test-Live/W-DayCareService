@@ -4,14 +4,14 @@
             <div class="row">
                 <div class="col-xl-auto header-top-left align-self-center text-center text-xl-start">
                     <ul class="element contact-info">
-                        <li class="contact-phone"><i class="fa fa-phone font-icon sm-display-block"></i> Tel:
+                        <!--<li class="contact-phone"><i class="fa fa-phone font-icon sm-display-block"></i> Tel:
                             +440-98-5298
-                        </li>
+                        </li>-->
                         <li class="contact-email"><i class="fa fa-envelope font-icon sm-display-block"></i>
-                            info@example.com
+                            info@daycaredeviser.com
                         </li>
-                        <li class="contact-address"><i class="fa fa-map font-icon sm-display-block"></i> 121 King
-                            Street, Melbourne
+                        <li class="contact-address"><i class="fa fa-map font-icon sm-display-block"></i>
+                            Khulna, Bangladesh
                         </li>
                     </ul>
                 </div>
@@ -24,8 +24,8 @@
                         </ul>
                     </div>
                     <div class="element pt-0 pt-lg-10 pb-0">
-                        <a href="ajax-load/form-appointment.html"
-                           class="btn btn-theme-colored2 btn-sm ajaxload-popup">Make an Appointment</a>
+                        <a href="Contact"
+                           class="btn btn-theme-colored2 btn-sm">Make an Appointment</a>
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@
                 <div class="container position-relative">
                     <div class="row header-nav-col-row">
                         <div class="col-sm-auto align-self-center">
-                            <a class="menuzord-brand site-brand" href="index.php">
+                            <a class="menuzord-brand site-brand" href="Home">
                                 <img class="logo-default logo-1x" src="images/logo-wide.png" alt="Logo">
                                 <img class="logo-default logo-2x retina" src="images/logo-wide%402x-2.png"
                                      alt="Logo">
@@ -48,11 +48,7 @@
                                  data-animation="none" data-align="right">
                                 <ul id="main-nav" class="menuzord-menu">
                                     <li class="active">
-                                        <a href="index.php">Home</a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.php">Multipage Layout1</a></li>
-                                            <li><a href="index-mp-layout2.html">Multipage Layout2</a></li>
-                                        </ul>
+                                        <a href="Home">Home</a>
                                     </li>
                                     <li><a href="index.php">Pages</a>
                                         <ul class="dropdown">
@@ -83,13 +79,13 @@
                                             <li><a href="news-details.html">News Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="page-contact.html">Contact</a></li>
+                                    <li><a href="Contact">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
                         <div class="col-sm-auto align-self-center nav-side-icon-parent">
                             <ul class="list-inline nav-side-icon-list">
-                                <li class="hidden-mobile-mode"><a href="#" id="top-nav-search-btn"><i
+                               <!-- <li class="hidden-mobile-mode"><a href="#" id="top-nav-search-btn"><i
                                                 class="search-icon fa fa-search"></i></a></li>
                                 <li class="hidden-mobile-mode">
                                     <div class="top-nav-mini-cart-icon-container">
@@ -130,7 +126,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </li>
+                                </li>-->
                                 <li class="hidden-mobile-mode">
                                     <div id="side-panel-trigger" class="side-panel-trigger">
                                         <a href="#">

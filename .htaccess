@@ -1,0 +1,9 @@
+ErrorDocument 404 /page-404.php
+
+RewriteEngine on
+
+RewriteRule ^Home  index.php [NC,L]
+RewriteRule ^Online-Marketing  onlinemarketing.php [NC,L]
+RewriteRule ^Web-Development  webdevelopment.php [NC,L]
+RewriteRule ^Graphic-Design  graphicdesign.php [NC,L]
+RewriteRule ^Contact  contact.php [NC,L]

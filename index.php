@@ -4,40 +4,41 @@
 <head>
     <!--including all the header css and js-->
     <?php
-    include ('includes/head.php');
+    include('includes/head.php');
     ?>
 </head>
 <body class="tm-container-1340px has-side-panel side-panel-right">
 <!-- preloader -->
 <?php
-include ("includes/preloader.php");
+include("includes/preloader.php");
 ?>
 
 
 <!--right side panel from the menu part-->
 <?php
-include ("includes/rightSidePanel.php");
+include("includes/rightSidePanel.php");
 ?>
 
 
 <div id="wrapper" class="clearfix">
     <!-- including the navbar -->
     <?php
-    include ("includes/navbar.php")
+    include("includes/navbar.php")
     ?>
 
     <!-- Start main-content -->
     <div class="main-content-area">
 
         <!-- Section: home Start -->
-        <section id="home" class="bg-pos-center-center home-wave-object" data-tm-bg-img="images/bg/bg1.jpg">
+        <section id="home" class="bg-pos-center-center home-wave-object" data-tm-bg-img="images/bg/bg1.jpg"
+                 style="background-image: url('images/bg/bg1.jpg');background-size: cover;background-repeat: no-repeat;">
             <div class="container" data-tm-padding-top="180px" data-tm-padding-bottom="180px">
                 <div class="row">
                     <div class="col-xl-6">
                         <div class="home-banner">
                             <div class="banner-inner">
-                                <span class="text-white">Special Kindergarten</span>
-                                <h2 class="text-white">Best Children <br> Kindergarten</h2>
+                                <span class="text-white">Marketing & Webdevelopment</span>
+                                <h2 class="text-white">Best Day Care <br> Business <br> Solution</h2>
                             </div>
                         </div>
                     </div>
@@ -68,10 +69,10 @@ include ("includes/rightSidePanel.php");
                                 <div class="feature-icon object-bg1">
                                     <img src="images/objects/feature-bg-object01.png" alt="images">
                                 </div>
-                                <h4 class="feature-title">Drawing Class</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua Totam rem.</p>
-                                <a href="page-course-details.html" class="feature-link-btn">+</a>
+                                <h4 class="feature-title">Digital Marketing</h4>
+                                <p>Digital marketing is important because it helps you drive more qualified traffic. You
+                                    reach more leads that are interested in your business.</p>
+                                <a href="Online-Marketing" class="feature-link-btn">+</a>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-4">
@@ -79,10 +80,11 @@ include ("includes/rightSidePanel.php");
                                 <div class="feature-icon object-bg2">
                                     <img src="images/objects/feature-bg-object02.png" alt="images">
                                 </div>
-                                <h4 class="feature-title">Music Class</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua Totam rem.</p>
-                                <a href="page-course-details.html" class="feature-link-btn">+</a>
+                                <h4 class="feature-title">Web Design & Development</h4>
+                                <p>A website helps create business awareness and showcasing your business to prospective
+                                    customers. It helps to establish your image by letting the audience know who you are
+                                    and what you represent.</p>
+                                <a href="Web-Development" class="feature-link-btn">+</a>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-4">
@@ -90,10 +92,10 @@ include ("includes/rightSidePanel.php");
                                 <div class="feature-icon object-bg2">
                                     <img src="images/objects/feature-bg-object03.png" alt="images">
                                 </div>
-                                <h4 class="feature-title">Knowledge Class</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua Totam rem.</p>
-                                <a href="page-course-details.html" class="feature-link-btn">+</a>
+                                <h4 class="feature-title">Graphic Design</h4>
+                                <p>Graphic design not only makes something look good, it organizes information to help
+                                    deliver a message in the most impactful way possible</p>
+                                <a href="Graphic-Design" class="feature-link-btn">+</a>
                             </div>
                         </div>
                     </div>
@@ -135,7 +137,7 @@ include ("includes/rightSidePanel.php");
                                             <img class="img-fullwidth" src="images/gallery/1.jpg" alt="images">
                                         </div>
                                         <div class="animated-css-play-button"><span class="play-icon"><i
-                                                class="fa fa-play"></i></span></div>
+                                                        class="fa fa-play"></i></span></div>
                                         <a class="hover-link" data-lightbox-gallery="youtube-video"
                                            href="https://www.youtube.com/watch?v=xcJtL7QggTI" title=""></a>
                                     </div>
@@ -396,10 +398,10 @@ include ("includes/rightSidePanel.php");
                                                                                data-src="images/gallery/1.jpg"
                                                                                title="Gallery 1"
                                                                                href="images/gallery/1.jpg"><i
-                                                                                    class="fa fa-plus"></i></a>
+                                                                                        class="fa fa-plus"></i></a>
                                                                             <a class="styled-icons-item"
                                                                                title="Gallery 1" href="#"><i
-                                                                                    class="fa fa-link"></i></a>
+                                                                                        class="fa fa-link"></i></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -432,10 +434,10 @@ include ("includes/rightSidePanel.php");
                                                                                data-src="images/gallery/3.jpg"
                                                                                title="Gallery 3"
                                                                                href="images/gallery/3.jpg"><i
-                                                                                    class="fa fa-plus"></i></a>
+                                                                                        class="fa fa-plus"></i></a>
                                                                             <a class="styled-icons-item"
                                                                                title="Gallery 3" href="#"><i
-                                                                                    class="fa fa-link"></i></a>
+                                                                                        class="fa fa-link"></i></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -469,10 +471,10 @@ include ("includes/rightSidePanel.php");
                                                                                data-src="images/gallery/2.jpg"
                                                                                title="Gallery 2"
                                                                                href="images/gallery/2.jpg"><i
-                                                                                    class="fa fa-plus"></i></a>
+                                                                                        class="fa fa-plus"></i></a>
                                                                             <a class="styled-icons-item"
                                                                                title="Gallery 2" href="#"><i
-                                                                                    class="fa fa-link"></i></a>
+                                                                                        class="fa fa-link"></i></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -506,10 +508,10 @@ include ("includes/rightSidePanel.php");
                                                                                data-src="images/gallery/2.jpg"
                                                                                title="Gallery 2"
                                                                                href="images/gallery/2.jpg"><i
-                                                                                    class="fa fa-plus"></i></a>
+                                                                                        class="fa fa-plus"></i></a>
                                                                             <a class="styled-icons-item"
                                                                                title="Gallery 2" href="#"><i
-                                                                                    class="fa fa-link"></i></a>
+                                                                                        class="fa fa-link"></i></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -542,10 +544,10 @@ include ("includes/rightSidePanel.php");
                                                                                data-src="images/gallery/2.jpg"
                                                                                title="Gallery 2"
                                                                                href="images/gallery/2.jpg"><i
-                                                                                    class="fa fa-plus"></i></a>
+                                                                                        class="fa fa-plus"></i></a>
                                                                             <a class="styled-icons-item"
                                                                                title="Gallery 2" href="#"><i
-                                                                                    class="fa fa-link"></i></a>
+                                                                                        class="fa fa-link"></i></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -578,10 +580,10 @@ include ("includes/rightSidePanel.php");
                                                                                data-src="images/gallery/1.jpg"
                                                                                title="Gallery 1"
                                                                                href="images/gallery/1.jpg"><i
-                                                                                    class="fa fa-plus"></i></a>
+                                                                                        class="fa fa-plus"></i></a>
                                                                             <a class="styled-icons-item"
                                                                                title="Gallery 1" href="#"><i
-                                                                                    class="fa fa-link"></i></a>
+                                                                                        class="fa fa-link"></i></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -753,7 +755,7 @@ include ("includes/rightSidePanel.php");
                                         <li><span class="font-weight-600">Price:</span> $30</li>
                                     </ul>
                                     <h4 class="event-title text-white"><a href="page-event-details.html">Magic Princess
-                                        Birthday Party</a></h4>
+                                            Birthday Party</a></h4>
                                     <a href="page-event-details.html">
                                         <div class="event-arrows">
                                             <img class="image1" src="images/objects/event-arrow1.png" alt="">
@@ -767,7 +769,7 @@ include ("includes/rightSidePanel.php");
                                         <li><span class="font-weight-600">Price:</span> $50</li>
                                     </ul>
                                     <h4 class="event-title text-white"><a href="page-event-details.html">Kids Grooming
-                                        with New Lesson</a></h4>
+                                            with New Lesson</a></h4>
                                     <a href="page-event-details.html">
                                         <div class="event-arrows">
                                             <img class="image1" src="images/objects/event-arrow1.png" alt="">
@@ -781,7 +783,7 @@ include ("includes/rightSidePanel.php");
                                         <li><span class="font-weight-600">Price:</span> $80</li>
                                     </ul>
                                     <h4 class="event-title text-white"><a href="page-event-details.html">Magic Paper
-                                        Plates Art Gallery</a></h4>
+                                            Plates Art Gallery</a></h4>
                                     <a href="page-event-details.html">
                                         <div class="event-arrows">
                                             <img class="image1" src="images/objects/event-arrow1.png" alt="">
@@ -833,10 +835,10 @@ include ("includes/rightSidePanel.php");
                         <ul class="nav nav-tabs">
                             <li class="active"><a class="active show" href="#pricing-navtab-button1"
                                                   data-bs-toggle="tab">
-                                <span class="title">Monthly</span></a>
+                                    <span class="title">Monthly</span></a>
                             </li>
                             <li class=""><a class="" href="#pricing-navtab-button2" data-bs-toggle="tab"> <span
-                                    class="title">Yearly</span> <span class="subtitle">10% Off</span></a></li>
+                                            class="title">Yearly</span> <span class="subtitle">10% Off</span></a></li>
                         </ul>
                         <div class="tab-content">
                             <div class="tab-pane fadeInLeft in active show" id="pricing-navtab-button1">
@@ -850,9 +852,9 @@ include ("includes/rightSidePanel.php");
                                                             <img src="images/objects/feature-bg-object03.png"
                                                                  alt="images">
                                                             <div class="pricing-table-pricing"><span
-                                                                    class="pricing-table-prefix">$</span> <span
-                                                                    class="pricing-table-price">45</span> <span
-                                                                    class="pricing-table-separator">/</span>
+                                                                        class="pricing-table-prefix">$</span> <span
+                                                                        class="pricing-table-price">45</span> <span
+                                                                        class="pricing-table-separator">/</span>
                                                                 <span class="pricing-table-postfix">Monthly</span>
                                                             </div>
                                                             <div class="pricing-table-title-area">
@@ -886,9 +888,9 @@ include ("includes/rightSidePanel.php");
                                                             <img src="images/objects/feature-bg-object02.png"
                                                                  alt="images">
                                                             <div class="pricing-table-pricing"><span
-                                                                    class="pricing-table-prefix">$</span> <span
-                                                                    class="pricing-table-price">65</span> <span
-                                                                    class="pricing-table-separator">/</span>
+                                                                        class="pricing-table-prefix">$</span> <span
+                                                                        class="pricing-table-price">65</span> <span
+                                                                        class="pricing-table-separator">/</span>
                                                                 <span class="pricing-table-postfix">Monthly</span>
                                                             </div>
                                                             <div class="pricing-table-title-area">
@@ -923,9 +925,9 @@ include ("includes/rightSidePanel.php");
                                                             <img src="images/objects/feature-bg-object01.png"
                                                                  alt="images">
                                                             <div class="pricing-table-pricing"><span
-                                                                    class="pricing-table-prefix">$</span> <span
-                                                                    class="pricing-table-price">90</span> <span
-                                                                    class="pricing-table-separator">/</span>
+                                                                        class="pricing-table-prefix">$</span> <span
+                                                                        class="pricing-table-price">90</span> <span
+                                                                        class="pricing-table-separator">/</span>
                                                                 <span class="pricing-table-postfix">Monthly</span>
                                                             </div>
                                                             <div class="pricing-table-title-area">
@@ -965,9 +967,9 @@ include ("includes/rightSidePanel.php");
                                                             <img src="images/objects/feature-bg-object01.png"
                                                                  alt="images">
                                                             <div class="pricing-table-pricing"><span
-                                                                    class="pricing-table-prefix">$</span> <span
-                                                                    class="pricing-table-price">120</span> <span
-                                                                    class="pricing-table-separator">/</span>
+                                                                        class="pricing-table-prefix">$</span> <span
+                                                                        class="pricing-table-price">120</span> <span
+                                                                        class="pricing-table-separator">/</span>
                                                                 <span class="pricing-table-postfix">Yearly</span>
                                                             </div>
                                                             <div class="pricing-table-title-area">
@@ -1001,9 +1003,9 @@ include ("includes/rightSidePanel.php");
                                                             <img src="images/objects/feature-bg-object03.png"
                                                                  alt="images">
                                                             <div class="pricing-table-pricing"><span
-                                                                    class="pricing-table-prefix">$</span> <span
-                                                                    class="pricing-table-price">199</span> <span
-                                                                    class="pricing-table-separator">/</span>
+                                                                        class="pricing-table-prefix">$</span> <span
+                                                                        class="pricing-table-price">199</span> <span
+                                                                        class="pricing-table-separator">/</span>
                                                                 <span class="pricing-table-postfix">Yearly</span>
                                                             </div>
                                                             <div class="pricing-table-title-area">
@@ -1038,9 +1040,9 @@ include ("includes/rightSidePanel.php");
                                                             <img src="images/objects/feature-bg-object02.png"
                                                                  alt="images">
                                                             <div class="pricing-table-pricing"><span
-                                                                    class="pricing-table-prefix">$</span> <span
-                                                                    class="pricing-table-price">299</span> <span
-                                                                    class="pricing-table-separator">/</span>
+                                                                        class="pricing-table-prefix">$</span> <span
+                                                                        class="pricing-table-price">299</span> <span
+                                                                        class="pricing-table-separator">/</span>
                                                                 <span class="pricing-table-postfix">Yearly</span>
                                                             </div>
                                                             <div class="pricing-table-title-area">
@@ -1102,7 +1104,7 @@ include ("includes/rightSidePanel.php");
                                     </div>
                                     <div class="details text-center">
                                         <h4 class="title text-white mt-0 mb-0"><a href="page-team-details.html">Jessica
-                                            Martin</a></h4>
+                                                Martin</a></h4>
                                         <p class="designation text-white-f3 font-weight-500 mb-15">Teacher</p>
                                         <ul class="styled-icons icon-md icon-gray icon-circled icon-theme-colored3">
                                             <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
@@ -1122,7 +1124,7 @@ include ("includes/rightSidePanel.php");
                                     </div>
                                     <div class="details text-center">
                                         <h4 class="title text-white mt-0 mb-0"><a href="page-team-details.html">Martin
-                                            Albin</a></h4>
+                                                Albin</a></h4>
                                         <p class="designation text-white-f3 font-weight-500 mb-15">Teacher</p>
                                         <ul class="styled-icons icon-md icon-gray icon-circled icon-theme-colored3">
                                             <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
@@ -1142,7 +1144,7 @@ include ("includes/rightSidePanel.php");
                                     </div>
                                     <div class="details text-center">
                                         <h4 class="title text-white mt-0 mb-0"><a href="page-team-details.html">Albart
-                                            Rose</a></h4>
+                                                Rose</a></h4>
                                         <p class="designation text-white-f3 font-weight-500 mb-15">Teacher</p>
                                         <ul class="styled-icons icon-md icon-gray icon-circled icon-theme-colored3">
                                             <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
@@ -1192,7 +1194,7 @@ include ("includes/rightSidePanel.php");
                                     </div>
                                     <div class="entry-content">
                                         <h4 class="entry-title mt-0"><a href="news-details.html" rel="bookmark">The
-                                            Challenges of Parenting</a></h4>
+                                                Challenges of Parenting</a></h4>
                                         <div class="blog-meta mb-20">
                       <span class="admin-type mr-10">
                         By Admin /
@@ -1224,7 +1226,7 @@ include ("includes/rightSidePanel.php");
                                     </div>
                                     <div class="entry-content">
                                         <h4 class="entry-title mt-0"><a href="news-details.html" rel="bookmark">Kids
-                                            Grooming with New Lesson</a></h4>
+                                                Grooming with New Lesson</a></h4>
                                         <div class="blog-meta mb-20">
                       <span class="admin-type mr-10">
                         By Admin /
@@ -1264,7 +1266,7 @@ include ("includes/rightSidePanel.php");
 
     <!-- Footer -->
     <?php
-    include ("includes/footer.php")
+    include("includes/footer.php")
     ?>
 
 
