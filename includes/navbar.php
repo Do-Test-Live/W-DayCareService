@@ -47,39 +47,43 @@
                             <nav id="top-primary-nav" class="menuzord theme-color2" data-effect="fade"
                                  data-animation="none" data-align="right">
                                 <ul id="main-nav" class="menuzord-menu">
-                                    <li class="active">
+                                    <li class="<?php if ($page == 'home'){ echo 'active';}?>">
                                         <a href="Home">Home</a>
                                     </li>
-                                    <li><a href="index.php">Pages</a>
+                                    <li><a href="#">Web Development</a>
                                         <ul class="dropdown">
-                                            <li><a href="page-about.html">About</a></li>
-                                            <li><a href="page-event-grid.html">Event</a></li>
-                                            <li><a href="page-event-details.html">Event Details</a></li>
-                                            <li><a href="page-gallery.html">Gallery</a>
-                                            <li><a href="page-testimonial.html">Testimonial</a>
-                                            <li><a href="shop-products-sidebar.html">Shop</a>
-                                            <li><a href="page-404.html">404</a>
+                                            <li><a href="#">Day Care Website Template</a></li>
+                                            <li><a href="#">Portfolio</a></li>
+                                            <li><a href="#">Web Support & Maintanance</a></li>
+                                            <li><a href="#">Pricing & Fees</a></li>
+                                            <li><a href="#">The Process</a></li>
+                                            <li><a href="#">Website Features & Add Ons</a></li>
+                                            <li><a href="#">FAQ</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="page-courses1.html">Courses</a>
+                                    <li><a href="#">Digital Marketing</a>
                                         <ul class="dropdown">
-                                            <li><a href="page-courses1.html">Course Grid</a></li>
-                                            <li><a href="page-course-details.html">Course Details</a></li>
+                                            <li><a href="#">Social Media Branding</a></li>
+                                            <li><a href="#">Facebook Posts & Facebook Advertising</a></li>
+                                            <li><a href="#">Online Reputation Management</a></li>
+                                            <li><a href="#">Pay Per Click Advertising</a></li>
+                                            <li><a href="#">Pricing & Fees</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="page-team-grid.html">Teachers</a>
+                                    <li><a href="#">Graphic</a>
                                         <ul class="dropdown">
-                                            <li><a href="page-team-grid.html">Teachers</a></li>
-                                            <li><a href="page-team-details.html">Teachers Details</a></li>
+                                            <li><a href="#">Logo Design Process</a></li>
+                                            <li><a href="#">Logo Design Portfolio</a></li>
+                                            <li><a href="#">Facebook Banner Design</a></li>
+                                            <li><a href="#">Facebook Fan Page Design</a></li>
+                                            <li><a href="#">Business Cards & Stationary Design</a></li>
+                                            <li><a href="#">Graphic Design Services</a></li>
+                                            <li><a href="#">Pricing & Fees</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="news-grid.html">Blog</a>
-                                        <ul class="dropdown">
-                                            <li><a href="news-grid.html">News Grid</a></li>
-                                            <li><a href="news-details.html">News Details</a></li>
-                                        </ul>
+                                    <li><a href="Testimonials">Testimonial</a>
                                     </li>
-                                    <li><a href="Contact">Contact</a></li>
+                                    <li class="<?php if ($page == 'contact'){ echo 'active';}?>"><a href="Contact">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>

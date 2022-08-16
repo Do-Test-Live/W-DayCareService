@@ -4,6 +4,7 @@
 <head>
     <!--including all the header css and js-->
     <?php
+    $page = 'home';
     include('includes/head.php');
     ?>
 </head>
@@ -125,37 +126,21 @@ include("includes/rightSidePanel.php");
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-5 col-xl-5">
-                        <h2 class="text-theme-colored1">Welcome to <span class="text-theme-colored2">Baby Care</span>
-                            and Kindergarten</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit tempor incididunt ut
-                            labore et dolore magna.</p>
-                        <div class="row mb-30">
-                            <div class="col-lg-5 mb-sm-30">
-                                <div class="box-hover-effect tm-sc-video-popup tm-sc-video-popup-button-over-image">
-                                    <div class="effect-wrapper">
-                                        <div class="thumb">
-                                            <img class="img-fullwidth" src="images/gallery/1.jpg" alt="images">
-                                        </div>
-                                        <div class="animated-css-play-button"><span class="play-icon"><i
-                                                        class="fa fa-play"></i></span></div>
-                                        <a class="hover-link" data-lightbox-gallery="youtube-video"
-                                           href="https://www.youtube.com/watch?v=xcJtL7QggTI" title=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="tm-sc-unordered-list list-style2 mt-md-30">
-                                    <ul>
-                                        <li class="theme-colored-before">We Use Quality Services</li>
-                                        <li class="theme-colored-before">We’re Professional Teacher</li>
-                                        <li class="theme-colored-before">The Most Trusted School</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Totam rem aperiam, eaque ipsa quae ab illo.</p>
-                        <a href="page-about.html" class="about-btn btn btn-lg btn-dark btn-theme-colored2">Read More</a>
+                        <h2 class="text-theme-colored1">What We <span class="text-theme-colored2">Do</span>
+                        </h2>
+                        <p class="lead"><span class="text-theme-colored2">Day Care Deviser (DCD)</span> is trusted by
+                            hundreds of child care centers across the US, we’re focused
+                            on driving results for each of our members.</p>
+                        <p>The No Joke Marketing Enrollments on Demand system can drive quick results for
+                            your child care center and automate most of the follow up, so you can focus on the aspects
+                            of your center you actually enjoy working on.</p>
+                        <p><span class="text-theme-colored2">DCD</span> offers integrated digital and
+                            offline marketing solutions specifically
+                            designed for a child care business.
+                            We exist for only one reason: to help you, the child care owner, create & maintain your web
+                            presence, dominate business directory listings and search engines in your market, generate
+                            enrollments through paid advertising opportunities and put your center on the map.</p>
+                        <a href="Contact" class="about-btn btn btn-lg btn-dark btn-theme-colored2">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -170,6 +155,80 @@ include("includes/rightSidePanel.php");
         </section>
         <!-- End About -->
 
+
+        <!-- Start Why Choose Us -->
+        <section>
+            <div class="container-fluid p-0">
+                <div class="tm-sc-custom-columns-holder tm-cc-two-columns tm-cc-responsive-mode-1280">
+                    <div class="tm-sc-custom-columns-holder-item bg-theme-colored2"
+                         data-item-class="tm-custom-columns-12" data-1200-up="100px 10% 60px 28%"
+                         data-1199-down="100px 10% 60px 10%" data-991-down="100px 10% 60px 10%"
+                         data-767-down="100px 10% 60px 10%" data-575-down="100px 10% 60px 10%"
+                         data-tm-bg-img="images/bg/why-choose-bg1.png">
+                        <div class="item-inner">
+                            <div class="item-content tm-custom-columns-12">
+                                <!-- Contact Form -->
+                                <div class="why-choose-us-block">
+                                    <h6 class="mt-0 font-italic text-white">Day Care Deviser</h6>
+                                    <h2 class="text-theme-colored1 mb-40">Why Choose Us</h2>
+                                    <div class="why-choose-us-item">
+                                        <div class="why-choose-us-img">
+                                            <img src="images/objects/why-choose-icon1.png" alt="img">
+                                        </div>
+                                        <div class="why-choose-us-content">
+                                            <h4 class="text-theme-colored4">Best Services</h4>
+                                            <p class="text-white-f1">We hear your problem, analyze your business and
+                                                provide you with the best possible services in order to grow your
+                                                business.</p>
+                                        </div>
+                                    </div>
+                                    <div class="why-choose-us-item">
+                                        <div class="why-choose-us-img">
+                                            <img src="images/objects/why-choose-icon4.png" alt="img">
+                                        </div>
+                                        <div class="why-choose-us-content">
+                                            <h4 class="text-theme-colored3">24/7 Support</h4>
+                                            <p class="text-white-f1">We provide 24/7 online service for you so that you
+                                                can find us by your side whenever you need us. We will also remain by
+                                                your side after completing the project.</p>
+                                        </div>
+                                    </div>
+                                    <div class="why-choose-us-item">
+                                        <div class="why-choose-us-img">
+                                            <img src="images/objects/why-choose-icon3.png" alt="img">
+                                        </div>
+                                        <div class="why-choose-us-content">
+                                            <h4 class="text-theme-colored1">Sales Funnel and more...</h4>
+                                            <p class="text-white-f1">We always provide the latest technologies like
+                                                sales funnel, SEO, and many more. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tm-sc-custom-columns-holder-item bg-img-left border-bottom-1px"
+                         data-item-class="tm-custom-columns-11" data-1200-up="8% 24%  5% 8%"
+                         data-1199-down="0 10% 0 10%" data-991-down="0 10% 0 10%" data-767-down="0 10% 0 10%"
+                         data-575-down="0 10% 0 10%">
+                        <div class="item-inner">
+                            <div class="item-content tm-custom-columns-11">
+                                <img class="mt-lg-100 mb-30 mb-sm-10" src="images/about/about6.jpg" alt="">
+                                <h5 class="text-theme-colored2">Day Care Deviser</h5>
+                                <h2 class="text-theme-colored1">A Great Place for Day Care Business Owners</h2>
+                                <p>Our main priority is to assist you in growing your daycare business by providing
+                                    modern websites (sells funnel), digital marketing, and graphic services. We also
+                                    offer free consultancy so you can find out all the lackings of your website and
+                                    online marketing.</p>
+                                <a href="Contact" class="about-btn btn btn-lg btn-dark btn-theme-colored2">Make An Appointment</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Why Choose Us -->
+
         <!-- Start Service -->
         <section class="bg-silver-light z-index-1">
             <div class="container">
@@ -179,9 +238,11 @@ include("includes/rightSidePanel.php");
                             <div class="tm-sc-section-title section-title text-center">
                                 <div class="title-wrapper">
                                     <h6>Programm</h6>
-                                    <h2 class="title text-theme-colored1">Care Programms</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitrem ipsum dolor sit amet,
-                                        consectetur adipisicing elit, sed do</p>
+                                    <h2 class="title text-theme-colored1">Child Care Marketing Best Practices</h2>
+                                    <p>Chances are, if you’ve been in the daycare business for many years, you’ve a
+                                        couple of generations of parents enrolling their children. Nowadays in
+                                        particular, you’re likely to be encountering more parents who are
+                                        “Millennials”. </p>
                                 </div>
                             </div>
                         </div>
@@ -199,17 +260,12 @@ include("includes/rightSidePanel.php");
                                         </div>
                                     </div>
                                     <div class="details clearfix">
-                                        <h4 class="title"><a href="page-course-details.html">Nursery</a></h4>
-                                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                            eiusmod tempor incididunt ut labore et dolore magna aliqua Totam rem.</p>
-                                        <ul class="service-info-list">
-                                            <li><span class="font-weight-800 text-theme-colored3">Age:</span> 2-4 Years
-                                            </li>
-                                            <li><span class="font-weight-800 text-theme-colored3">Time:</span> 9.00 -
-                                                11.00
-                                            </li>
-                                            <li><span class="font-weight-800 text-theme-colored3">Price:</span> $30</li>
-                                        </ul>
+                                        <h4 class="title"><a href="page-course-details.html">Pay-Per-Click
+                                                Management</a></h4>
+                                        <p>PPC guarantees your center is getting the right visibility for
+                                            industry-related search terms. With the right advertisement and landing page
+                                            that we’ll design, pay-per-click advertising can drive high volumes of
+                                            traffic and leads for your center.</p>
                                     </div>
                                 </div>
                             </div>
@@ -224,17 +280,12 @@ include("includes/rightSidePanel.php");
                                         </div>
                                     </div>
                                     <div class="details clearfix">
-                                        <h4 class="title"><a href="page-course-details.html">Paper Plates Art</a></h4>
-                                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                            eiusmod tempor incididunt ut labore et dolore magna aliqua Totam rem.</p>
-                                        <ul class="service-info-list">
-                                            <li><span class="font-weight-800 text-theme-colored3">Age:</span> 2-4 Years
-                                            </li>
-                                            <li><span class="font-weight-800 text-theme-colored3">Time:</span> 9.00 -
-                                                11.00
-                                            </li>
-                                            <li><span class="font-weight-800 text-theme-colored3">Price:</span> $30</li>
-                                        </ul>
+                                        <h4 class="title"><a href="page-course-details.html">Facebook Posting &
+                                                Advertising.</a></h4>
+                                        <p class="">With the ability to target your exact audience, Facebook is a
+                                            powerful and affordable option that allows us to find your potential
+                                            customers. By having active postings on your Facebook page, this gives your
+                                            center the ability to engage with prospective parents.</p>
                                     </div>
                                 </div>
                             </div>
@@ -249,17 +300,12 @@ include("includes/rightSidePanel.php");
                                         </div>
                                     </div>
                                     <div class="details clearfix">
-                                        <h4 class="title"><a href="page-course-details.html">Drawing</a></h4>
-                                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                            eiusmod tempor incididunt ut labore et dolore magna aliqua Totam rem.</p>
-                                        <ul class="service-info-list">
-                                            <li><span class="font-weight-800 text-theme-colored3">Age:</span> 2-4 Years
-                                            </li>
-                                            <li><span class="font-weight-800 text-theme-colored3">Time:</span> 9.00 -
-                                                11.00
-                                            </li>
-                                            <li><span class="font-weight-800 text-theme-colored3">Price:</span> $30</li>
-                                        </ul>
+                                        <h4 class="title"><a href="page-course-details.html">Reputation Management.</a>
+                                        </h4>
+                                        <p class="">Our reputation management program allows us to control the narrative
+                                            of what others are saying about you online. It’s much more advantageous to
+                                            be proactive than reactive, as any negative reviews can greatly damage your
+                                            image as a business.</p>
                                     </div>
                                 </div>
                             </div>
@@ -278,76 +324,36 @@ include("includes/rightSidePanel.php");
         </section>
         <!-- End Service -->
 
-        <!-- Start Why Choose Us -->
+        <!-- Section: About -->
         <section>
-            <div class="container-fluid p-0">
-                <div class="tm-sc-custom-columns-holder tm-cc-two-columns tm-cc-responsive-mode-1280">
-                    <div class="tm-sc-custom-columns-holder-item bg-theme-colored2"
-                         data-item-class="tm-custom-columns-12" data-1200-up="100px 10% 60px 28%"
-                         data-1199-down="100px 10% 60px 10%" data-991-down="100px 10% 60px 10%"
-                         data-767-down="100px 10% 60px 10%" data-575-down="100px 10% 60px 10%"
-                         data-tm-bg-img="images/bg/why-choose-bg1.png">
-                        <div class="item-inner">
-                            <div class="item-content tm-custom-columns-12">
-                                <!-- Contact Form -->
-                                <div class="why-choose-us-block">
-                                    <h6 class="mt-0 font-italic text-white">Like Us</h6>
-                                    <h2 class="text-theme-colored1 mb-40">Why Choose Us</h2>
-                                    <div class="why-choose-us-item">
-                                        <div class="why-choose-us-img">
-                                            <img src="images/objects/why-choose-icon1.png" alt="img">
-                                        </div>
-                                        <div class="why-choose-us-content">
-                                            <h4 class="text-theme-colored4">Knowledge Classes</h4>
-                                            <p class="text-white-f1">Lorem ipsum dolor sit amet nsectetur cing ndisse
-                                                suscipit sagitis leo sit ipsum dolor sit amet nsectetur.</p>
-                                        </div>
-                                    </div>
-                                    <div class="why-choose-us-item">
-                                        <div class="why-choose-us-img">
-                                            <img src="images/objects/why-choose-icon4.png" alt="img">
-                                        </div>
-                                        <div class="why-choose-us-content">
-                                            <h4 class="text-theme-colored3">Full day session</h4>
-                                            <p class="text-white-f1">Lorem ipsum dolor sit amet nsectetur cing ndisse
-                                                suscipit sagitis leo sit ipsum dolor sit amet nsectetur.</p>
-                                        </div>
-                                    </div>
-                                    <div class="why-choose-us-item">
-                                        <div class="why-choose-us-img">
-                                            <img src="images/objects/why-choose-icon3.png" alt="img">
-                                        </div>
-                                        <div class="why-choose-us-content">
-                                            <h4 class="text-theme-colored1">Last minute request</h4>
-                                            <p class="text-white-f1">Lorem ipsum dolor sit amet nsectetur cing ndisse
-                                                suscipit sagitis leo sit ipsum dolor sit amet nsectetur.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="container pt-0">
+                <div class="row align-items-center">
+                    <div class="col-md-12 col-lg-7 col-xl-7">
+                        <div class="image-box tilt-hover-effect mb-50">
+                            <img src="images/about/about1.png" alt="">
+                            <img class="floating-img1" src="images/about/about-floating-img1.png" alt="">
                         </div>
                     </div>
-                    <div class="tm-sc-custom-columns-holder-item bg-img-left border-bottom-1px"
-                         data-item-class="tm-custom-columns-11" data-1200-up="8% 24%  5% 8%"
-                         data-1199-down="0 10% 0 10%" data-991-down="0 10% 0 10%" data-767-down="0 10% 0 10%"
-                         data-575-down="0 10% 0 10%">
-                        <div class="item-inner">
-                            <div class="item-content tm-custom-columns-11">
-                                <img class="mt-lg-100 mb-30 mb-sm-10" src="images/about/about6.jpg" alt="">
-                                <h5 class="text-theme-colored2">About Kid Education</h5>
-                                <h2 class="text-theme-colored1">A Great Place for Your Child to Grow At</h2>
-                                <p>Our priority is to make sure that your children are safe while playing or studying at
-                                    the center, and therefore, we implement innovative methology for our educational
-                                    activities and encourage our staff to develop their skills. We implement innovative
-                                    methology for our educational activities and encourage our staff to develop their
-                                    skills.</p>
-                            </div>
-                        </div>
+                    <div class="col-md-12 col-lg-5 col-xl-5">
+                        <h2 class="text-theme-colored1">Local Child Care Marketing
+                            Your <span class="text-theme-colored2">Web Presence Partner</span>
+                        </h2>
+                        <p>Able to stay focused on running their business since you know your online marketing is being
+                            handled by professionals specializing in marketing for child care providers.</p>
+                        <a href="Contact" class="about-btn btn btn-lg btn-dark btn-theme-colored2">Contact Us</a>
                     </div>
                 </div>
             </div>
+            <div class="tm-floating-objects">
+                <span class="floating-object-2 tm-animation-spin z-index--1"
+                      data-tm-bg-img="images/objects/object-star3.png" data-tm-opacity="0.8" data-tm-width="210"
+                      data-tm-height="210" data-tm-top="16%" data-tm-left="6%"></span>
+                <span class="floating-object-2 tm-animation-floating z-index--1"
+                      data-tm-bg-img="images/objects/object-rocket1.png" data-tm-opacity="0.8" data-tm-width="210"
+                      data-tm-height="210" data-tm-top="8%" data-tm-right="3%"></span>
+            </div>
         </section>
-        <!-- End Why Choose Us -->
+        <!-- End About -->
 
         <!-- Start Gallery -->
         <section>
@@ -357,10 +363,10 @@ include("includes/rightSidePanel.php");
                         <div class="col-lg-6">
                             <div class="tm-sc-section-title section-title text-center">
                                 <div class="title-wrapper">
-                                    <h6>Checkout</h6>
-                                    <h2 class="title text-theme-colored1">Centre Photo Gallery</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitrem ipsum dolor sit amet,
-                                        consectetur adipisicing elit, sed do</p>
+                                    <h6>Portfolio</h6>
+                                    <h2 class="title text-theme-colored1">Our Recent Works</h2>
+                                    <p>We have completed 100+ projects with our honarable clients. You can find some of
+                                        our recent works here.</p>
                                 </div>
                             </div>
                         </div>
@@ -403,6 +409,10 @@ include("includes/rightSidePanel.php");
                                                                                title="Gallery 1" href="#"><i
                                                                                         class="fa fa-link"></i></a>
                                                                         </div>
+                                                                        <div class="title-holder">
+                                                                            <h5 class="title"><a href="#">Project
+                                                                                    Name</a></h5>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -438,6 +448,10 @@ include("includes/rightSidePanel.php");
                                                                             <a class="styled-icons-item"
                                                                                title="Gallery 3" href="#"><i
                                                                                         class="fa fa-link"></i></a>
+                                                                        </div>
+                                                                        <div class="title-holder">
+                                                                            <h5 class="title"><a href="#">Project
+                                                                                    Name</a></h5>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -476,6 +490,10 @@ include("includes/rightSidePanel.php");
                                                                                title="Gallery 2" href="#"><i
                                                                                         class="fa fa-link"></i></a>
                                                                         </div>
+                                                                        <div class="title-holder">
+                                                                            <h5 class="title"><a href="#">Project
+                                                                                    Name</a></h5>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -513,6 +531,10 @@ include("includes/rightSidePanel.php");
                                                                                title="Gallery 2" href="#"><i
                                                                                         class="fa fa-link"></i></a>
                                                                         </div>
+                                                                        <div class="title-holder">
+                                                                            <h5 class="title"><a href="#">Project
+                                                                                    Name</a></h5>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -549,6 +571,10 @@ include("includes/rightSidePanel.php");
                                                                                title="Gallery 2" href="#"><i
                                                                                         class="fa fa-link"></i></a>
                                                                         </div>
+                                                                        <div class="title-holder">
+                                                                            <h5 class="title"><a href="#">Project
+                                                                                    Name</a></h5>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -584,6 +610,10 @@ include("includes/rightSidePanel.php");
                                                                             <a class="styled-icons-item"
                                                                                title="Gallery 1" href="#"><i
                                                                                         class="fa fa-link"></i></a>
+                                                                        </div>
+                                                                        <div class="title-holder">
+                                                                            <h5 class="title"><a href="#">Project
+                                                                                    Name</a></h5>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -638,8 +668,8 @@ include("includes/rightSidePanel.php");
                                         </div>
                                     </div>
                                 </div>
-                                <h2 class="text-white popup-video-title" data-tm-font-size="3.8rem">Kipso one & only
-                                    mission is to extend your knowledge base</h2>
+                                <h2 class="text-white popup-video-title" data-tm-font-size="3.8rem">Day Care Deviser's
+                                    one and only mission is to make your business grow</h2>
                             </div>
                         </div>
                         <div class="col"></div>
@@ -813,7 +843,7 @@ include("includes/rightSidePanel.php");
         <!-- End Events -->
 
         <!-- Section: Pricing Tables -->
-        <section class="bg-silver-light">
+        <!--<section class="bg-silver-light">
             <div class="container pb-70">
                 <div class="section-title">
                     <div class="row justify-content-md-center">
@@ -1075,7 +1105,7 @@ include("includes/rightSidePanel.php");
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
 
         <!-- Start Teams -->
         <section class="bg-theme-colored2" data-tm-bg-img="images/bg/object-bg2.png">

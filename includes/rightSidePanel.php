@@ -18,7 +18,7 @@
                 <article class="post clearfix pb-0 mb-10">
                     <a class="post-thumb" href="Web-Development"><img src="images/shop/portfolio-sq2.jpg" alt=""></a>
                     <div class="post-right">
-                        <h5 class="post-title mt-0"><a href="Web-Development">Web Development and SEO</a></h5>
+                        <h5 class="post-title mt-0"><a href="Web-Development">Web Development Services</a></h5>
                         <p>Design and develop websites and provide SEO services</p>
                     </div>
                 </article>
