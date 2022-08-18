@@ -50,11 +50,11 @@
                                     <li class="<?php if ($page == 'home'){ echo 'active';}?>">
                                         <a href="Home">Home</a>
                                     </li>
-                                    <li><a href="#">Web Development</a>
+                                    <li class="<?php if ($page == 'web-support'){ echo 'active';}?>"><a href="#">Web Development</a>
                                         <ul class="dropdown">
-                                            <li><a href="#">Day Care Website Template</a></li>
-                                            <li><a href="#">Portfolio</a></li>
-                                            <li><a href="#">Web Support & Maintanance</a></li>
+                                            <li><a href="Website-Template">Day Care Website Template</a></li>
+                                            <li><a href="Website-Portfolio">Portfolio</a></li>
+                                            <li><a href="Support-Maintainance">Web Support & Maintanance</a></li>
                                             <li><a href="#">Pricing & Fees</a></li>
                                             <li><a href="#">The Process</a></li>
                                             <li><a href="#">Website Features & Add Ons</a></li>

@@ -4,7 +4,9 @@ RewriteEngine on
 
 RewriteRule ^Home  index.php [NC,L]
 RewriteRule ^Online-Marketing  onlinemarketing.php [NC,L]
-RewriteRule ^Web-Development  webdevelopment.php [NC,L]
+RewriteRule ^Support-Maintainance  webdevelopmentsupport.php [NC,L]
 RewriteRule ^Graphic-Design  graphicdesign.php [NC,L]
 RewriteRule ^Testimonials  testimonial.php [NC,L]
+RewriteRule ^Website-Template  webtemplate.php [NC,L]
+RewriteRule ^Website-Portfolio webportfolio.php [NC,L]
 RewriteRule ^Contact  contact.php [NC,L]
