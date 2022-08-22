@@ -56,8 +56,8 @@
                                             <li><a href="Website-Portfolio">Portfolio</a></li>
                                             <li><a href="Support-Maintainance">Web Support & Maintanance</a></li>
                                             <li><a href="#">Pricing & Fees</a></li>
-                                            <li><a href="#">The Process</a></li>
-                                            <li><a href="#">Website Features & Add Ons</a></li>
+                                            <li><a href="Webdevelopment-Process">The Process</a></li>
+                                            <li><a href="Website-Feature">Website Features & Add Ons</a></li>
                                             <li><a href="#">FAQ</a></li>
                                         </ul>
                                     </li>
