@@ -31422,20 +31422,7 @@ footer#footer.footer-inverted .widget.widget_archive ul > li, footer#footer.foot
     }
 }
 
-/*==================================================
-=            Bootstrap 5 Media Queries             =
-$grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1400px
-);
-==================================================*/
-/*==========  Mobile First Method  ==========*/
-/*==========  Non-Mobile First Method  ==========*/
-/*==========  minimum and maximum breakpoint Method  ==========*/
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
     body {
         font-size: 1rem;
@@ -31494,4 +31481,3 @@ $grid-breakpoints: (
         margin-top:1rem;
     }
 }
-
