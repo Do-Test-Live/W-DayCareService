@@ -61,7 +61,7 @@ include("includes/rightSidePanel.php")
                 <!--row 1-->
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a href="#">
+                        <a href="#service1">
                             <button type="button" class="btn btn-outline-primary" style="width: 100%">Custom Website
                                 Design
                             </button>
@@ -254,8 +254,8 @@ include("includes/rightSidePanel.php")
                     <div class="col-md-12 col-lg-6 col-xl-6">
                         <div class="image-box tilt-hover-effect mb-50"
                              style="will-change: transform; transform: perspective(300px) rotateX(0deg) rotateY(0deg);">
-                            <img src="images/about/about1.png" alt="">
-                            <img class="floating-img1" src="<?php echo $value['image']?>" alt="">
+                            <img src="<?php echo $value ['image']?>" alt="">
+                            <img class="floating-img1" src="<?php echo $value['second-image']?>" alt="">
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-6 col-xl-6">

@@ -12,22 +12,27 @@
         $sheading = mysqli_real_escape_string($con, $_POST['s_heading']);
         $sdes = mysqli_real_escape_string($con, $_POST['s_des']);
 
-        $fileName = $_FILES['s_image']['tmp_name'];
+        $fileName1 = $_FILES['s_image1']['tmp_name'];
+        $fileName2 = $_FILES['s_image2']['tmp_name'];
         $resizeFileName = time();
+        $resizeFileName2 = time();
         $uploadPath = "service/";
-        $fileExt = pathinfo($_FILES['s_image']['name'], PATHINFO_EXTENSION);
+        $fileExt = pathinfo($_FILES['s_image1']['name'], PATHINFO_EXTENSION);
+        $fileExt1 = pathinfo($_FILES['s_image2']['name'], PATHINFO_EXTENSION);
 
         $url = $uploadPath . "thump_" . $resizeFileName . "." . $fileExt;
-        if (move_uploaded_file($fileName, $url)) {
-            $con->query("insert into services(`heading`,`description`,`image`)values('" . $sname . "','" . $sheading . "','" . $url . "')");
-            echo '<script type="text/javascript">';
-            echo "alert('Data inserted successfully');";
-            echo '</script>';
-
-        } else {
-            echo '<script type="text/javascript">';
-            echo "alert('Sorry Something went wrong');";
-            echo '</script>';
+        $url1 = $uploadPath . "thumpsecond_" . $resizeFileName2 . "." . $fileExt1;
+        if (move_uploaded_file($fileName1, $url)) {
+            if(move_uploaded_file($fileName2, $url1)){
+                $con->query("insert into services(`heading`,`description`,`image`,`second-image`)values('" . $sheading . "','" . $sdes . "','" . $url . "','" . $url1 . "')");
+                echo '<script type="text/javascript">';
+                echo "alert('Data inserted successfully');";
+                echo '</script>';
+            }else {
+                echo '<script type="text/javascript">';
+                echo "alert('Sorry Something went wrong');";
+                echo '</script>';
+            }
         }
     }
     ?>
@@ -85,13 +90,16 @@ include("includes/rightSidePanel.php")
                            placeholder="Enter Service Heading">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Service Description</label>
-                    <input type="text" name="s_des" class="form-control"
-                           placeholder="Enter Service Description">
+                    <label for="exampleFormControlTextarea1">Service Description</label>
+                    <textarea class="form-control" name="s_des" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Service Image</label>
-                    <input type="file" name="s_image" class="form-control">
+                    <label for="exampleInputEmail1">Service Image 1</label>
+                    <input type="file" name="s_image1" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Service Image 2</label>
+                    <input type="file" name="s_image2" class="form-control">
                 </div>
                 <button type="submit" name="submit" class="btn btn-primary mt-2">Submit</button>
             </form>
