@@ -41,9 +41,9 @@ include("includes/rightSidePanel.php")
                                 ons</h2>
                             <nav role="navigation" class="breadcrumb-trail breadcrumbs">
                                 <div class="breadcrumbs">
-                  <span class="trail-item trail-begin">
-                    <a href="#"><span>Home</span></a>
-                  </span>
+                                      <span class="trail-item trail-begin">
+                                        <a href="#"><span>Home</span></a>
+                                      </span>
                                     <span><i class="fa fa-angle-right"></i></span>
                                     <span class="trail-item"><a
                                                 href="#"><span>Website Features & Add Ons</span></a></span>
@@ -68,14 +68,14 @@ include("includes/rightSidePanel.php")
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a>
+                        <a href="#service2">
                             <button type="button" class="btn btn-outline-warning" style="width: 100%">Custom Logo
                                 Design
                             </button>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a>
+                        <a href="#service3">
                             <button type="button" class="btn btn-outline-success" style="width: 100%">Child Care PDF
                             </button>
                         </a>
@@ -84,18 +84,18 @@ include("includes/rightSidePanel.php")
 
                 <div class="row from-second-row">
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a href="#">
+                        <a href="service4">
                             <button type="button" class="btn btn-outline-success" style="width: 100%">Facebook Design
                             </button>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a>
+                        <a href="#service5">
                             <button type="button" class="btn btn-outline-primary" style="width: 100%">SEO</button>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a>
+                        <a href="#service6">
                             <button type="button" class="btn btn-outline-warning" style="width: 100%">CMS</button>
                         </a>
                     </div>
@@ -103,21 +103,21 @@ include("includes/rightSidePanel.php")
 
                 <div class="row from-second-row">
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a href="#">
+                        <a href="#service7">
                             <button type="button" class="btn btn-outline-warning" style="width: 100%">Homepage Animation
                                 / Slideshow
                             </button>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a>
+                        <a href="#service8">
                             <button type="button" class="btn btn-outline-success" style="width: 100%">Social Media
                                 Link
                             </button>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a>
+                        <a href="#service9>
                             <button type="button" class="btn btn-outline-primary" style="width: 100%">Photo Galleries
                             </button>
                         </a>
@@ -126,21 +126,21 @@ include("includes/rightSidePanel.php")
 
                 <div class="row from-second-row">
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a href="#">
+                        <a href="#service10">
                             <button type="button" class="btn btn-outline-primary" style="width: 100%">Google Map
                                 Installation
                             </button>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a>
+                        <a href="#service11">
                             <button type="button" class="btn btn-outline-warning" style="width: 100%">Google Analytics
                                 Installation
                             </button>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a>
+                        <a href="#service12">
                             <button type="button" class="btn btn-outline-success" style="width: 100%">
                                 Mobile-Responsive
                             </button>
@@ -150,20 +150,20 @@ include("includes/rightSidePanel.php")
 
                 <div class="row from-second-row">
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a href="#">
+                        <a href="#service13">
                             <button type="button" class="btn btn-outline-success" style="width: 100%">Enrollment Inquiry
                                 Form
                             </button>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a>
+                        <a href="#service14">
                             <button type="button" class="btn btn-outline-primary" style="width: 100%">Graphic Design
                             </button>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a>
+                        <a href="#service15">
                             <button type="button" class="btn btn-outline-warning" style="width: 100%">Detailed Careers
                                 Form
                             </button>
@@ -173,20 +173,20 @@ include("includes/rightSidePanel.php")
 
                 <div class="row from-second-row">
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a href="#">
+                        <a href="#service16">
                             <button type="button" class="btn btn-outline-warning" style="width: 100%">Semi-Detailed
                                 Careers Form
                             </button>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a>
+                        <a href="#service17">
                             <button type="button" class="btn btn-outline-success" style="width: 100%">Content Setup
                             </button>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a>
+                        <a href="#service18">
                             <button type="button" class="btn btn-outline-primary" style="width: 100%">Additional Website
                                 Page
                             </button>
@@ -196,21 +196,21 @@ include("includes/rightSidePanel.php")
 
                 <div class="row from-second-row">
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a href="#">
+                        <a href="#service19">
                             <button type="button" class="btn btn-outline-primary" style="width: 100%">Secure Parent
                                 Portal
                             </button>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a>
+                        <a href="#service20">
                             <button type="button" class="btn btn-outline-warning" style="width: 100%">Secure Staff
                                 Portal
                             </button>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a>
+                        <a href="#service21">
                             <button type="button" class="btn btn-outline-success" style="width: 100%">Paypal Payment
                                 Button
                             </button>
@@ -220,19 +220,19 @@ include("includes/rightSidePanel.php")
 
                 <div class="row from-second-row">
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a href="#">
+                        <a href="#service22">
                             <button type="button" class="btn btn-outline-success" style="width: 100%">Stock Photos
                             </button>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a>
+                        <a href="#service23">
                             <button type="button" class="btn btn-outline-primary" style="width: 100%">Anti-Spam Forms
                             </button>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a>
+                        <a href="#service24">
                             <button type="button" class="btn btn-outline-warning" style="width: 100%">Wordpress Blog
                                 Installation
                             </button>
@@ -246,36 +246,36 @@ include("includes/rightSidePanel.php")
 
         <?php
         $query = $con->query("SELECT * FROM `services`");
-        while($value = $query->fetch_assoc()){
-        ?>
-        <section id="service<?php echo $value['id']?>">
-            <div class="container pt-0">
-                <div class="row align-items-center">
-                    <div class="col-md-12 col-lg-6 col-xl-6">
-                        <div class="image-box tilt-hover-effect mb-50"
-                             style="will-change: transform; transform: perspective(300px) rotateX(0deg) rotateY(0deg);">
-                            <img src="<?php echo $value ['image']?>" alt="">
-                            <img class="floating-img1" src="<?php echo $value['second-image']?>" alt="">
+        while ($value = $query->fetch_assoc()) {
+            ?>
+            <section id="service<?php echo $value['id'] ?>">
+                <div class="container pt-0">
+                    <div class="row align-items-center">
+                        <div class="col-md-12 col-lg-6 col-xl-6">
+                            <div class="image-box tilt-hover-effect mb-50"
+                                 style="will-change: transform; transform: perspective(300px) rotateX(0deg) rotateY(0deg);">
+                                <img src="<?php echo $value ['image'] ?>" alt="">
+                                <img class="floating-img1" src="<?php echo $value['second-image'] ?>" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-6 col-xl-6">
+                            <h2 class="text-theme-colored1"><?php echo $value['heading'] ?>
+                            </h2>
+                            <p class="lead"><span class="text-theme-colored2">
+                                <?php echo $value['description'] ?>
+                            </p>
+                            <a href="Contact" class="about-btn btn btn-lg btn-dark btn-theme-colored2">Contact Us</a>
                         </div>
                     </div>
-                    <div class="col-md-12 col-lg-6 col-xl-6">
-                        <h2 class="text-theme-colored1"><?php echo $value['heading']?>
-                        </h2>
-                        <p class="lead"><span class="text-theme-colored2">
-                                <?php echo $value['description']?>
-                        </p>
-                        <a href="Contact" class="about-btn btn btn-lg btn-dark btn-theme-colored2">Contact Us</a>
-                    </div>
                 </div>
-            </div>
-            <div class="tm-floating-objects">
+                <div class="tm-floating-objects">
                 <span class="floating-object-2 tm-animation-spin z-index--1"
                       data-tm-bg-img="images/objects/object-star3.png" data-tm-opacity="0.8" data-tm-width="210"
                       data-tm-height="210" data-tm-top="16%" data-tm-left="6%"
                       style="background-image: url(&quot;images/objects/object-star3.png&quot;); opacity: 0.8; height: 210px; width: 210px; top: 16%; left: 6%;"></span>
-            </div>
-        </section>
-        <?php
+                </div>
+            </section>
+            <?php
         }
         ?>
 

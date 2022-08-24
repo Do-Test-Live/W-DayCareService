@@ -55,7 +55,7 @@
                                             <li><a href="Website-Template">Day Care Website Template</a></li>
                                             <li><a href="Website-Portfolio">Portfolio</a></li>
                                             <li><a href="Support-Maintainance">Web Support & Maintanance</a></li>
-                                            <li><a href="#">Pricing & Fees</a></li>
+                                            <li><a href="Price-Web-Development">Pricing & Fees</a></li>
                                             <li><a href="Webdevelopment-Process">The Process</a></li>
                                             <li><a href="Website-Feature">Website Features & Add Ons</a></li>
                                             <li><a href="FAQ-Web-Development">FAQ</a></li>

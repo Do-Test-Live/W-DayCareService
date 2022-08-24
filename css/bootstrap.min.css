@@ -4544,8 +4544,8 @@ textarea.form-control-lg {
 }
 
 .accordion-collapse {
-    border: solid rgba(0, 0, 0, .125);
-    border-width: 0 1px
+    /*border: solid rgba(0, 0, 0, .125);
+    border-width: 0 1px*/
 }
 
 .accordion-body {
