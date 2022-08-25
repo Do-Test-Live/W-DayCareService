@@ -9,23 +9,23 @@
             <h4 class="widget-title widget-title-line-bottom line-bottom-theme-colored1">Our Services</h4>
             <div class="latest-posts">
                 <article class="post clearfix pb-0 mb-10">
-                    <a class="post-thumb" href="Online-Marketing"><img src="images/shop/portfolio-sq1.jpg" alt=""></a>
+                    <a class="post-thumb" href="Social-Media-Branding"><img src="images/shop/portfolio-sq1.jpg" alt=""></a>
                     <div class="post-right">
-                        <h5 class="post-title mt-0"><a href="Online-Marketing">Digital Marketing</a></h5>
+                        <h5 class="post-title mt-0"><a href="Social-Media-Branding">Digital Marketing</a></h5>
                         <p>All types of online marketing strategy and campaigns</p>
                     </div>
                 </article>
                 <article class="post clearfix pb-0 mb-10">
-                    <a class="post-thumb" href="Web-Development"><img src="images/shop/portfolio-sq2.jpg" alt=""></a>
+                    <a class="post-thumb" href="Website-Feature"><img src="images/shop/portfolio-sq2.jpg" alt=""></a>
                     <div class="post-right">
-                        <h5 class="post-title mt-0"><a href="Web-Development">Web Development Services</a></h5>
+                        <h5 class="post-title mt-0"><a href="Website-Feature">Web Development Services</a></h5>
                         <p>Design and develop websites and provide SEO services</p>
                     </div>
                 </article>
                 <article class="post clearfix pb-0 mb-10">
-                    <a class="post-thumb" href="Graphic-Design"><img src="images/shop/portfolio-sq3.jpg" alt=""></a>
+                    <a class="post-thumb" href="Graphic-Service"><img src="images/shop/portfolio-sq3.jpg" alt=""></a>
                     <div class="post-right">
-                        <h5 class="post-title mt-0"><a href="Graphic-Design">Graphic Design</a></h5>
+                        <h5 class="post-title mt-0"><a href="Graphic-Service">Graphic Design</a></h5>
                         <p>Provide all types of graphic services needed for your day care business</p>
                     </div>
                 </article>

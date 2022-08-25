@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
-
-<!-- Mirrored from kodesolution.com/html/2021/edukids-html-v2/page-404.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 14 Aug 2022 09:28:23 GMT -->
 <head>
 <?php
-include ("includes/head.php")
+include ("includes/head.php");
 ?>
 </head>
 <body class="tm-container-1340px has-side-panel side-panel-right">
@@ -43,5 +41,4 @@ include ("includes/head.php")
 
 </body>
 
-<!-- Mirrored from kodesolution.com/html/2021/edukids-html-v2/page-404.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 14 Aug 2022 09:28:23 GMT -->
 </html>

@@ -61,27 +61,26 @@
                                             <li><a href="FAQ-Web-Development">FAQ</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Digital Marketing</a>
+                                    <li class="<?php if ($page == 'online-marketing'){ echo 'active';}?>"><a href="#">Digital Marketing</a>
                                         <ul class="dropdown">
-                                            <li><a href="#">Social Media Branding</a></li>
-                                            <li><a href="#">Facebook Posts & Facebook Advertising</a></li>
-                                            <li><a href="#">Online Reputation Management</a></li>
-                                            <li><a href="#">Pay Per Click Advertising</a></li>
-                                            <li><a href="#">Pricing & Fees</a></li>
+                                            <li><a href="Social-Media-Branding">Social Media Branding</a></li>
+                                            <li><a href="Facebook-Posting-&-Advertising">Facebook Posts & Facebook Advertising</a></li>
+                                            <li><a href="Online-Reputation-Management">Online Reputation Management</a></li>
+                                            <li><a href="Pay-Per-Click-Advertisement">Pay Per Click Advertising</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Graphic</a>
+                                    <li class="<?php if ($page == 'logo-design'){ echo 'active';}?>"><a href="#">Graphic</a>
                                         <ul class="dropdown">
-                                            <li><a href="#">Logo Design Process</a></li>
-                                            <li><a href="#">Logo Design Portfolio</a></li>
-                                            <li><a href="#">Facebook Banner Design</a></li>
-                                            <li><a href="#">Facebook Fan Page Design</a></li>
-                                            <li><a href="#">Business Cards & Stationary Design</a></li>
-                                            <li><a href="#">Graphic Design Services</a></li>
-                                            <li><a href="#">Pricing & Fees</a></li>
+                                            <li><a href="Logo-Design-Process">Logo Design Process</a></li>
+                                            <li><a href="Logo-Design-Process#logo-portfolio">Logo Design Portfolio</a></li>
+                                            <li><a href="Facebook-Banner">Facebook Banner Design</a></li>
+                                            <li><a href="Facebook-Fanpage">Facebook Fan Page Design</a></li>
+                                            <li><a href="Graphic-Service">Business Cards & Stationary Design</a></li>
+                                            <li><a href="Graphic-Service">Graphic Design Services</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="Testimonials">Testimonial</a>
+                                    <li class="<?php if ($page == 'testimonial'){ echo 'active';}?>">
+                                        <a href="Testimonials">Testimonial</a>
                                     </li>
                                     <li class="<?php if ($page == 'contact'){ echo 'active';}?>"><a href="Contact">Contact</a></li>
                                 </ul>

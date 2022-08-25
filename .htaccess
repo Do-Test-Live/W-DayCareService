@@ -3,9 +3,7 @@ ErrorDocument 404 /page-404.php
 RewriteEngine on
 
 RewriteRule ^Home  index.php [NC,L]
-RewriteRule ^Online-Marketing  onlinemarketing.php [NC,L]
 RewriteRule ^Support-Maintainance  webdevelopmentsupport.php [NC,L]
-RewriteRule ^Graphic-Design  graphicdesign.php [NC,L]
 RewriteRule ^Testimonials  testimonial.php [NC,L]
 RewriteRule ^Website-Template  webtemplate.php [NC,L]
 RewriteRule ^Website-Portfolio webportfolio.php [NC,L]
@@ -13,4 +11,16 @@ RewriteRule ^Webdevelopment-Process webdevelopmentprocess.php [NC,L]
 RewriteRule ^Website-Feature websitefeature.php [NC,L]
 RewriteRule ^FAQ-Web-Development faqweb.php [NC,L]
 RewriteRule ^Price-Web-Development website_price.php [NC,L]
+RewriteRule ^Logo-Design-Process logo_design_process.php [NC,L]
+RewriteRule ^Facebook-Banner facebook_banner.php [NC,L]
+RewriteRule ^Facebook-Fanpage facebook_fanpage.php [NC,L]
+RewriteRule ^Graphic-Service business_card.php [NC,L]
+RewriteRule ^Social-Media-Branding social_media_branding.php [NC,L]
+RewriteRule ^Facebook-Posting-&-Advertising facebook_post_advertising.php [NC,L]
+RewriteRule ^Online-Reputation-Management online-reputation-management.php [NC,L]
+RewriteRule ^Pay-Per-Click-Advertisement pay_per_click.php [NC,L]
 RewriteRule ^Contact  contact.php [NC,L]
+
+RewriteRule ^(?=.*[a-zA-Z\d].*)[a-zA-Z\d!@#$%&*]{7,}$  page-404.php [NC,L]
+
+
