@@ -1,11 +1,12 @@
 <!-- Meta Tags -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="Edukids - Children kidergarten HTML Template"/>
-<meta name="keywords" content="children, education, kids, kindergarten, nursery, website, webdevelopment"/>
+<meta name="description"
+      content="Day Care Deviser, we provide you with complete solution for your child care business. We provide web development, graphic and digital marketing services for day care business."/>
+<meta name="keywords" content="daycare, education, kids, childcare, digital marketing, graphic, website, webdevelopment"/>
 
 <!-- Page Title -->
-<title>Edukids - Children kidergarten HTML Template</title>
+<title>Day Care Deviser - A Complete Solution for Child Care Business</title>
 
 <!-- Favicon and Touch Icons -->
 <link href="images/favicon.png" rel="shortcut icon" type="image/png">
@@ -58,5 +59,5 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 <?php
-include ("dbconfig.php");
+include("dbconfig.php");
 ?>

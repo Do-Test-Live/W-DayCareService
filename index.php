@@ -758,7 +758,7 @@ include("includes/rightSidePanel.php");
         <hr>
 
         <!-- Start Events -->
-        <section>
+        <!--<section>
             <div class="container">
                 <div class="section-title">
                     <div class="row justify-content-center">
@@ -839,7 +839,7 @@ include("includes/rightSidePanel.php");
                       data-tm-bg-img="images/objects/object-star2.png" data-tm-opacity="0.8" data-tm-width="210"
                       data-tm-height="210" data-tm-top="15%" data-tm-right="36%"></span>
             </div>
-        </section>
+        </section>-->
         <!-- End Events -->
 
         <!-- Section: Pricing Tables -->
@@ -1108,7 +1108,7 @@ include("includes/rightSidePanel.php");
         </section>-->
 
         <!-- Start Teams -->
-        <section class="bg-theme-colored2" data-tm-bg-img="images/bg/object-bg2.png">
+        <!--<section class="bg-theme-colored2" data-tm-bg-img="images/bg/object-bg2.png">
             <div class="container">
                 <div class="section-title">
                     <div class="row justify-content-center">
@@ -1189,7 +1189,7 @@ include("includes/rightSidePanel.php");
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
         <!-- End Teams -->
 
         <!-- Section: News -->

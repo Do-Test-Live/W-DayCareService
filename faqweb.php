@@ -56,7 +56,6 @@ include("includes/rightSidePanel.php")
         <!-- Section: inner-header End -->
         <section>
             <div class="container">
-                <h2 class="text-center">FAQ</h2>
                 <div class="accordion w-100" id="basicAccordion">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">

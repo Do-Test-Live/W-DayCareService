@@ -70,9 +70,9 @@ include("includes/rightSidePanel.php")
                                 <div class="row align-items-center">
                                     <div class="col-md-12 col-lg-6 col-xl-6">
                                         <div class="image-box tilt-hover-effect mb-50">
-                                            <img src="images/about/about1.png" alt="">
-                                            <img class="floating-img1" src="images/about/about-floating-img1.png"
-                                                 alt="">
+                                            <img src="images/facebook/Social-Media-Is-Today-img1.png" alt="Social Media Marketing">
+                                            <img class="floating-img1" src="images/facebook/Social%20Media%20Is%20Today%20-img2.png"
+                                                 alt="Social Media Marketing">
                                         </div>
                                     </div>
                                     <div class="col-md-12 col-lg-6 col-xl-6">
@@ -116,9 +116,9 @@ include("includes/rightSidePanel.php")
                                     </div>
                                     <div class="col-md-12 col-lg-6 col-xl-6">
                                         <div class="image-box tilt-hover-effect mb-50">
-                                            <img src="images/about/about1.png" alt="">
-                                            <img class="floating-img1" src="images/about/about-floating-img1.png"
-                                                 alt="">
+                                            <img src="images/facebook/How-Can-Local-Child-Care-img1.png" alt="Child Care Business">
+                                            <img class="floating-img1" src="images/facebook/How-Can-Local-Child-Care-img2.png"
+                                                 alt="Child Care Business">
                                         </div>
                                     </div>
                                 </div>
