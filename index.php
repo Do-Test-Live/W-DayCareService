@@ -73,7 +73,7 @@ include("includes/rightSidePanel.php");
                                 <h4 class="feature-title">Digital Marketing</h4>
                                 <p>Digital marketing is important because it helps you drive more qualified traffic. You
                                     reach more leads that are interested in your business.</p>
-                                <a href="Online-Marketing" class="feature-link-btn">+</a>
+                                <a href="Social-Media-Branding" class="feature-link-btn">+</a>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-4">
@@ -85,7 +85,7 @@ include("includes/rightSidePanel.php");
                                 <p>A website helps create business awareness and showcasing your business to prospective
                                     customers. It helps to establish your image by letting the audience know who you are
                                     and what you represent.</p>
-                                <a href="Web-Development" class="feature-link-btn">+</a>
+                                <a href="Website-Feature" class="feature-link-btn">+</a>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-4">
@@ -96,7 +96,7 @@ include("includes/rightSidePanel.php");
                                 <h4 class="feature-title">Graphic Design</h4>
                                 <p>Graphic design not only makes something look good, it organizes information to help
                                     deliver a message in the most impactful way possible</p>
-                                <a href="Graphic-Design" class="feature-link-btn">+</a>
+                                <a href="Graphic-Service" class="feature-link-btn">+</a>
                             </div>
                         </div>
                     </div>
@@ -121,8 +121,8 @@ include("includes/rightSidePanel.php");
                 <div class="row align-items-center">
                     <div class="col-md-12 col-lg-7 col-xl-7">
                         <div class="image-box tilt-hover-effect mb-50">
-                            <img src="images/about/about1.png" alt="">
-                            <img class="floating-img1" src="images/about/about-floating-img1.png" alt="">
+                            <img src="images/objects/What%20We%20Doabout-img1.png" alt="">
+                            <img class="floating-img1" src="images/objects/What%20We%20Do%20about-img2.png" alt="">
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-5 col-xl-5">
@@ -220,7 +220,8 @@ include("includes/rightSidePanel.php");
                                     modern websites (sells funnel), digital marketing, and graphic services. We also
                                     offer free consultancy so you can find out all the lackings of your website and
                                     online marketing.</p>
-                                <a href="Contact" class="about-btn btn btn-lg btn-dark btn-theme-colored2">Make An Appointment</a>
+                                <a href="Contact" class="about-btn btn btn-lg btn-dark btn-theme-colored2">Make An
+                                    Appointment</a>
                             </div>
                         </div>
                     </div>
@@ -330,8 +331,8 @@ include("includes/rightSidePanel.php");
                 <div class="row align-items-center">
                     <div class="col-md-12 col-lg-7 col-xl-7">
                         <div class="image-box tilt-hover-effect mb-50">
-                            <img src="images/about/about1.png" alt="">
-                            <img class="floating-img1" src="images/about/about-floating-img1.png" alt="">
+                            <img src="images/objects/1.png" alt="">
+                            <img class="floating-img1" src="images/objects/2.png" alt="">
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-5 col-xl-5">
@@ -756,441 +757,6 @@ include("includes/rightSidePanel.php");
         </section>
         <!-- End Testimonials -->
         <hr>
-
-        <!-- Start Events -->
-        <!--<section>
-            <div class="container">
-                <div class="section-title">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-6">
-                            <div class="tm-sc-section-title section-title text-center">
-                                <div class="title-wrapper">
-                                    <h6>Events</h6>
-                                    <h2 class="title text-theme-colored1">Upcoming Event</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitrem ipsum dolor sit amet,
-                                        consectetur adipisicing elit, sed do</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="section-content">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-12">
-                            <div class="upcoming-events-current-style1">
-                                <div class="event-item bg-theme-colored1 p-sm-30">
-                                    <ul class="event-info-list text-white">
-                                        <li><span class="font-weight-800">Age:</span> 2-4 Years</li>
-                                        <li><span class="font-weight-600">Time:</span> 9.00 - 11.00</li>
-                                        <li><span class="font-weight-600">Price:</span> $30</li>
-                                    </ul>
-                                    <h4 class="event-title text-white"><a href="page-event-details.html">Magic Princess
-                                            Birthday Party</a></h4>
-                                    <a href="page-event-details.html">
-                                        <div class="event-arrows">
-                                            <img class="image1" src="images/objects/event-arrow1.png" alt="">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="event-item bg-theme-colored3 p-sm-30">
-                                    <ul class="event-info-list text-white">
-                                        <li><span class="font-weight-800">Age:</span> 4-6 Years</li>
-                                        <li><span class="font-weight-600">Time:</span> 11.00 - 12.00</li>
-                                        <li><span class="font-weight-600">Price:</span> $50</li>
-                                    </ul>
-                                    <h4 class="event-title text-white"><a href="page-event-details.html">Kids Grooming
-                                            with New Lesson</a></h4>
-                                    <a href="page-event-details.html">
-                                        <div class="event-arrows">
-                                            <img class="image1" src="images/objects/event-arrow1.png" alt="">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="event-item bg-theme-colored4 p-sm-30">
-                                    <ul class="event-info-list text-white">
-                                        <li><span class="font-weight-800">Age:</span> 6-9 Years</li>
-                                        <li><span class="font-weight-600">Time:</span> 9.00 - 11.00</li>
-                                        <li><span class="font-weight-600">Price:</span> $80</li>
-                                    </ul>
-                                    <h4 class="event-title text-white"><a href="page-event-details.html">Magic Paper
-                                            Plates Art Gallery</a></h4>
-                                    <a href="page-event-details.html">
-                                        <div class="event-arrows">
-                                            <img class="image1" src="images/objects/event-arrow1.png" alt="">
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-12">
-                            <img src="images/photos/events-img1.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tm-floating-objects">
-                <span class="floating-object-2 tm-animation-floating z-index--1"
-                      data-tm-bg-img="images/objects/object-person1.png" data-tm-opacity="1" data-tm-width="305"
-                      data-tm-height="335" data-tm-top="10%" data-tm-left="-26px"></span>
-                <span class="floating-object-2 tm-animation-scaling z-index--1"
-                      data-tm-bg-img="images/objects/object-star1.png" data-tm-opacity="0.8" data-tm-width="210"
-                      data-tm-height="210" data-tm-top="0" data-tm-right="3%"></span>
-                <span class="floating-object-2 tm-animation-scaling z-index--1"
-                      data-tm-bg-img="images/objects/object-star2.png" data-tm-opacity="0.8" data-tm-width="210"
-                      data-tm-height="210" data-tm-top="15%" data-tm-right="36%"></span>
-            </div>
-        </section>-->
-        <!-- End Events -->
-
-        <!-- Section: Pricing Tables -->
-        <!--<section class="bg-silver-light">
-            <div class="container pb-70">
-                <div class="section-title">
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <div class="text-center mb-60">
-                                <div class="tm-sc-section-title section-title">
-                                    <div class="title-wrapper">
-                                        <h6 class="mt-0 letter-space-2 text-theme-colored1 sub-title-icon">Pricing
-                                            Tables</h6>
-                                        <h2>See Our Pricing Plans</h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="section-content">
-                    <div class="tm-sc-nav-tabs-pricing nav-tab-btn-button">
-                        <ul class="nav nav-tabs">
-                            <li class="active"><a class="active show" href="#pricing-navtab-button1"
-                                                  data-bs-toggle="tab">
-                                    <span class="title">Monthly</span></a>
-                            </li>
-                            <li class=""><a class="" href="#pricing-navtab-button2" data-bs-toggle="tab"> <span
-                                            class="title">Yearly</span> <span class="subtitle">10% Off</span></a></li>
-                        </ul>
-                        <div class="tab-content">
-                            <div class="tab-pane fadeInLeft in active show" id="pricing-navtab-button1">
-                                <div class="tab-pane-inner">
-                                    <div class="row">
-                                        <div class="col-md-6 col-lg-4">
-                                            <div class="tm-sc-pricing-table pricing-table-style-basic pricing-table-box-shadow pricing-table-hover-effect mb-30 text-center">
-                                                <div class="pricing-table-inner-wrapper">
-                                                    <div class="pricing-table-inner">
-                                                        <div class="pricing-table-head">
-                                                            <img src="images/objects/feature-bg-object03.png"
-                                                                 alt="images">
-                                                            <div class="pricing-table-pricing"><span
-                                                                        class="pricing-table-prefix">$</span> <span
-                                                                        class="pricing-table-price">45</span> <span
-                                                                        class="pricing-table-separator">/</span>
-                                                                <span class="pricing-table-postfix">Monthly</span>
-                                                            </div>
-                                                            <div class="pricing-table-title-area">
-                                                                <h4 class="pricing-table-title">Basic Plan</h4>
-                                                            </div>
-                                                        </div>
-                                                        <div class="pricing-table-content">
-                                                            <ul class="">
-                                                                <li>Extra features</li>
-                                                                <li>Lifetime free support</li>
-                                                                <li>Upgrate options</li>
-                                                                <li>Full access</li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="pricing-table-footer">
-                                                            <div class="btn-view-details">
-                                                                <a href="#" target="_self"
-                                                                   class="btn btn-theme-colored2 btn-round">Select
-                                                                    Plan</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-4">
-                                            <div class="tm-sc-pricing-table pricing-table-style-basic pricing-table-box-shadow pricing-table-hover-effect mb-30 text-center">
-                                                <div class="pricing-table-inner-wrapper">
-                                                    <div class="pricing-table-inner">
-                                                        <div class="pricing-table-head">
-                                                            <img src="images/objects/feature-bg-object02.png"
-                                                                 alt="images">
-                                                            <div class="pricing-table-pricing"><span
-                                                                        class="pricing-table-prefix">$</span> <span
-                                                                        class="pricing-table-price">65</span> <span
-                                                                        class="pricing-table-separator">/</span>
-                                                                <span class="pricing-table-postfix">Monthly</span>
-                                                            </div>
-                                                            <div class="pricing-table-title-area">
-                                                                <h4 class="pricing-table-title">Standard Plan</h4>
-                                                            </div>
-                                                        </div>
-                                                        <div class="pricing-table-content">
-                                                            <ul class="">
-                                                                <li>Extra features</li>
-                                                                <li>Lifetime free support</li>
-                                                                <li>Upgrate options</li>
-                                                                <li>Full access</li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="pricing-table-footer">
-                                                            <div class="btn-view-details">
-                                                                <a href="#" target="_self"
-                                                                   class="btn btn-theme-colored2 btn-round">Select
-                                                                    Plan</a>
-                                                            </div>
-                                                        </div>
-                                                        <span class="pricing-table-label">Popular</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-4">
-                                            <div class="tm-sc-pricing-table pricing-table-style-basic pricing-table-box-shadow pricing-table-hover-effect mb-30 text-center">
-                                                <div class="pricing-table-inner-wrapper">
-                                                    <div class="pricing-table-inner">
-                                                        <div class="pricing-table-head">
-                                                            <img src="images/objects/feature-bg-object01.png"
-                                                                 alt="images">
-                                                            <div class="pricing-table-pricing"><span
-                                                                        class="pricing-table-prefix">$</span> <span
-                                                                        class="pricing-table-price">90</span> <span
-                                                                        class="pricing-table-separator">/</span>
-                                                                <span class="pricing-table-postfix">Monthly</span>
-                                                            </div>
-                                                            <div class="pricing-table-title-area">
-                                                                <h4 class="pricing-table-title">Premimum Plan</h4>
-                                                            </div>
-                                                        </div>
-                                                        <div class="pricing-table-content">
-                                                            <ul class="">
-                                                                <li>Extra features</li>
-                                                                <li>Lifetime free support</li>
-                                                                <li>Upgrate options</li>
-                                                                <li>Full access</li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="pricing-table-footer">
-                                                            <div class="btn-view-details">
-                                                                <a href="#" target="_self"
-                                                                   class="btn btn-theme-colored2 btn-round">Select
-                                                                    Plan</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fadeInRight" id="pricing-navtab-button2">
-                                <div class="tab-pane-inner">
-                                    <div class="row">
-                                        <div class="col-md-6 col-lg-4">
-                                            <div class="tm-sc-pricing-table pricing-table-style-basic pricing-table-box-shadow pricing-table-hover-effect mb-30 text-center">
-                                                <div class="pricing-table-inner-wrapper">
-                                                    <div class="pricing-table-inner">
-                                                        <div class="pricing-table-head">
-                                                            <img src="images/objects/feature-bg-object01.png"
-                                                                 alt="images">
-                                                            <div class="pricing-table-pricing"><span
-                                                                        class="pricing-table-prefix">$</span> <span
-                                                                        class="pricing-table-price">120</span> <span
-                                                                        class="pricing-table-separator">/</span>
-                                                                <span class="pricing-table-postfix">Yearly</span>
-                                                            </div>
-                                                            <div class="pricing-table-title-area">
-                                                                <h4 class="pricing-table-title">First Session</h4>
-                                                            </div>
-                                                        </div>
-                                                        <div class="pricing-table-content">
-                                                            <ul class="">
-                                                                <li>Extra features</li>
-                                                                <li>Lifetime free support</li>
-                                                                <li>Upgrate options</li>
-                                                                <li>Full access</li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="pricing-table-footer">
-                                                            <div class="btn-view-details">
-                                                                <a href="#" target="_self"
-                                                                   class="btn btn-theme-colored2 btn-round">Select
-                                                                    Plan</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-4">
-                                            <div class="tm-sc-pricing-table pricing-table-style-basic pricing-table-box-shadow pricing-table-hover-effect mb-30 text-center">
-                                                <div class="pricing-table-inner-wrapper">
-                                                    <div class="pricing-table-inner">
-                                                        <div class="pricing-table-head">
-                                                            <img src="images/objects/feature-bg-object03.png"
-                                                                 alt="images">
-                                                            <div class="pricing-table-pricing"><span
-                                                                        class="pricing-table-prefix">$</span> <span
-                                                                        class="pricing-table-price">199</span> <span
-                                                                        class="pricing-table-separator">/</span>
-                                                                <span class="pricing-table-postfix">Yearly</span>
-                                                            </div>
-                                                            <div class="pricing-table-title-area">
-                                                                <h4 class="pricing-table-title">Second Session</h4>
-                                                            </div>
-                                                        </div>
-                                                        <div class="pricing-table-content">
-                                                            <ul class="">
-                                                                <li>Extra features</li>
-                                                                <li>Lifetime free support</li>
-                                                                <li>Upgrate options</li>
-                                                                <li>Full access</li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="pricing-table-footer">
-                                                            <div class="btn-view-details">
-                                                                <a href="#" target="_self"
-                                                                   class="btn btn-theme-colored2 btn-round">Select
-                                                                    Plan</a>
-                                                            </div>
-                                                        </div>
-                                                        <span class="pricing-table-label">Popular</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-4">
-                                            <div class="tm-sc-pricing-table pricing-table-style-basic pricing-table-box-shadow pricing-table-hover-effect mb-30 text-center">
-                                                <div class="pricing-table-inner-wrapper">
-                                                    <div class="pricing-table-inner">
-                                                        <div class="pricing-table-head">
-                                                            <img src="images/objects/feature-bg-object02.png"
-                                                                 alt="images">
-                                                            <div class="pricing-table-pricing"><span
-                                                                        class="pricing-table-prefix">$</span> <span
-                                                                        class="pricing-table-price">299</span> <span
-                                                                        class="pricing-table-separator">/</span>
-                                                                <span class="pricing-table-postfix">Yearly</span>
-                                                            </div>
-                                                            <div class="pricing-table-title-area">
-                                                                <h4 class="pricing-table-title">Last Session</h4>
-                                                            </div>
-                                                        </div>
-                                                        <div class="pricing-table-content">
-                                                            <ul class="">
-                                                                <li>Extra features</li>
-                                                                <li>Lifetime free support</li>
-                                                                <li>Upgrate options</li>
-                                                                <li>Full access</li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="pricing-table-footer">
-                                                            <div class="btn-view-details">
-                                                                <a href="#" target="_self"
-                                                                   class="btn btn-theme-colored2 btn-round">Select
-                                                                    Plan</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>-->
-
-        <!-- Start Teams -->
-        <!--<section class="bg-theme-colored2" data-tm-bg-img="images/bg/object-bg2.png">
-            <div class="container">
-                <div class="section-title">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-6">
-                            <div class="tm-sc-section-title section-title text-center">
-                                <div class="title-wrapper">
-                                    <h6 class="text-white">Teams</h6>
-                                    <h2 class="title text-theme-colored1">Our Teacher</h2>
-                                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elitrem
-                                        ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="section-content">
-                    <div class="row">
-                        <div class="col-md-4 col-xl-4">
-                            <div class="tm-sc-staff staff-current-theme text-center mb-30">
-                                <div class="tm-staff">
-                                    <div class="thumb mb-20">
-                                        <img class="rounded-circle" src="images/team/team1.jpg" alt="Image">
-                                    </div>
-                                    <div class="details text-center">
-                                        <h4 class="title text-white mt-0 mb-0"><a href="page-team-details.html">Jessica
-                                                Martin</a></h4>
-                                        <p class="designation text-white-f3 font-weight-500 mb-15">Teacher</p>
-                                        <ul class="styled-icons icon-md icon-gray icon-circled icon-theme-colored3">
-                                            <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a class="social-link" href="#"><i class="fab fa-youtube"></i></a></li>
-                                            <li><a class="social-link" href="#"><i class="fab fa-instagram"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-xl-4">
-                            <div class="tm-sc-staff staff-current-theme text-center mb-30">
-                                <div class="tm-staff">
-                                    <div class="thumb mb-20">
-                                        <img class="rounded-circle" src="images/team/team2.jpg" alt="Image">
-                                    </div>
-                                    <div class="details text-center">
-                                        <h4 class="title text-white mt-0 mb-0"><a href="page-team-details.html">Martin
-                                                Albin</a></h4>
-                                        <p class="designation text-white-f3 font-weight-500 mb-15">Teacher</p>
-                                        <ul class="styled-icons icon-md icon-gray icon-circled icon-theme-colored3">
-                                            <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a class="social-link" href="#"><i class="fab fa-youtube"></i></a></li>
-                                            <li><a class="social-link" href="#"><i class="fab fa-instagram"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-xl-4">
-                            <div class="tm-sc-staff staff-current-theme text-center mb-30">
-                                <div class="tm-staff">
-                                    <div class="thumb mb-20">
-                                        <img class="rounded-circle" src="images/team/team3.jpg" alt="Image">
-                                    </div>
-                                    <div class="details text-center">
-                                        <h4 class="title text-white mt-0 mb-0"><a href="page-team-details.html">Albart
-                                                Rose</a></h4>
-                                        <p class="designation text-white-f3 font-weight-500 mb-15">Teacher</p>
-                                        <ul class="styled-icons icon-md icon-gray icon-circled icon-theme-colored3">
-                                            <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a class="social-link" href="#"><i class="fab fa-youtube"></i></a></li>
-                                            <li><a class="social-link" href="#"><i class="fab fa-instagram"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>-->
-        <!-- End Teams -->
 
         <!-- Section: News -->
         <section>

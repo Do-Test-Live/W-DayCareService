@@ -4,7 +4,24 @@
 <head>
     <?php
     $page = 'contact';
-    include ("includes/head.php");
+    include("includes/head.php");
+    if (isset($_POST['submit'])) {
+        $name = mysqli_real_escape_string($con,$_POST['form_name']);
+        $email = mysqli_real_escape_string($con,$_POST['form_email']);
+        $subject = mysqli_real_escape_string($con,$_POST['form_subject']);
+        $phone = mysqli_real_escape_string($con,$_POST['form_phone']);
+        $message = mysqli_real_escape_string($con,$_POST['form_message']);
+        $query = $con->query("INSERT INTO `query`(`name`, `email`, `subject`, `phone`, `message`) VALUES ('$name','$email','$subject','$phone','$message')");
+        if ($query){
+            echo '<script type="text/javascript">';
+            echo "alert('Data inserted successfully');";
+            echo '</script>';
+        }else{
+            echo '<script type="text/javascript">';
+            echo "alert('Sorry Something went wrong');";
+            echo '</script>';
+        }
+    }
     ?>
 </head>
 <body class="tm-container-1340px has-side-panel side-panel-right">
@@ -80,7 +97,8 @@ include("includes/rightSidePanel.php")
                                     </div>
                                     <div class="icon-text">
                                         <h5 class="icon-box-title mt-0">Email</h5>
-                                        <div class="content"><a href="mailto:info@daycaredeviser.com"> info@daycaredeviser.com</a>
+                                        <div class="content"><a href="mailto:info@daycaredeviser.com">
+                                                info@daycaredeviser.com</a>
                                         </div>
                                     </div>
                                     <div class="clearfix"></div>
@@ -111,24 +129,24 @@ include("includes/rightSidePanel.php")
                         </div>
                         <div class="col-lg-6">
                             <h3 class="mt-0 mb-0">Interested in discussing?</h3>
-                            <p class="font-size-20">Active & Ready to use Contact Form!</p>
+                            <p class="font-size-20">Feel free to leave us a message</p>
                             <!-- Contact Form -->
-                            <form id="contact_form" name="contact_form" class=""
-                                  action="https://kodesolution.com/html/2021/edukids-html-v2/includes/sendmail.php"
+                            <form name="contact_form" class=""
+                                  action=""
                                   method="post">
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="mb-3">
                                             <label>Name <small>*</small></label>
                                             <input name="form_name" class="form-control" type="text"
-                                                   placeholder="Enter Name">
+                                                   placeholder="Enter Name" required>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="mb-3">
                                             <label>Email <small>*</small></label>
                                             <input name="form_email" class="form-control required email" type="email"
-                                                   placeholder="Enter Email">
+                                                   placeholder="Enter Email" required>
                                         </div>
                                     </div>
                                 </div>
@@ -137,14 +155,14 @@ include("includes/rightSidePanel.php")
                                         <div class="mb-3">
                                             <label>Subject <small>*</small></label>
                                             <input name="form_subject" class="form-control required" type="text"
-                                                   placeholder="Enter Subject">
+                                                   placeholder="Enter Subject" required>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="mb-3">
                                             <label>Phone</label>
                                             <input name="form_phone" class="form-control" type="text"
-                                                   placeholder="Enter Phone">
+                                                   placeholder="Enter Phone" required>
                                         </div>
                                     </div>
                                 </div>
@@ -152,13 +170,19 @@ include("includes/rightSidePanel.php")
                                 <div class="mb-3">
                                     <label>Message</label>
                                     <textarea name="form_message" class="form-control required" rows="5"
-                                              placeholder="Enter Message"></textarea>
+                                              placeholder="Enter Message" required></textarea>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="mb-3">
+                                        <label style="font-size: 50px" id="captcha"></label>
+                                        <input name="form_result" id="form_result" class="form-control" type="text"
+                                               placeholder="Enter the Result" required onkeydown="validation()" onkeyup="validation()">
+                                    </div>
                                 </div>
                                 <div class="mb-3">
-                                    <input name="form_botcheck" class="form-control" type="hidden" value=""/>
-                                    <button type="submit"
+                                    <button type="submit" name="submit" id="form_submit"
                                             class="btn btn-flat btn-theme-colored1 text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px"
-                                            data-loading-text="Please wait...">Send your message
+                                            data-loading-text="Please wait..." disabled>Send your message
                                     </button>
                                     <button type="reset"
                                             class="btn btn-flat btn-theme-colored3 text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px">
@@ -169,6 +193,19 @@ include("includes/rightSidePanel.php")
 
                             <!-- Contact Form Validation-->
                             <script>
+                                let a = Math.floor(Math.random() * 10) + 1
+                                let b = Math.floor(Math.random() * 10) + 1
+                                let c = a + b
+                                document.getElementById("captcha").innerHTML = a + ' + ' + b;
+                                function validation(){
+                                    let form_result = document.getElementById("form_result").value
+                                    let btn = document.getElementById('form_submit')
+                                    if(form_result != c){
+                                        btn.disabled = true;
+                                    }else{
+                                        btn.disabled = false;
+                                    }
+                                }
                                 (function ($) {
                                     $("#contact_form").validate({
                                         submitHandler: function (form) {
@@ -212,7 +249,6 @@ include("includes/rightSidePanel.php")
                 </div>
             </div>
         </section>
-
 
 
     </div>

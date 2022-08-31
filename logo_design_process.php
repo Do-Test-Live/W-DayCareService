@@ -61,8 +61,8 @@ include("includes/rightSidePanel.php")
                 <div class="row align-items-center">
                     <div class="col-md-12 col-lg-7 col-xl-7">
                         <div class="image-box mb-50">
-                            <img src="images/about/about1.png" alt="">
-                            <img class="floating-img1" src="images/about/about-floating-img1.png" alt="">
+                            <img src="images/logo/img1.png" alt="">
+                            <img class="floating-img1" src="images/logo/img2.png" alt="">
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-5 col-xl-5">

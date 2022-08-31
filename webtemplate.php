@@ -62,8 +62,8 @@ include("includes/rightSidePanel.php")
                 <div class="row align-items-center">
                     <div class="col-md-12 col-lg-6 col-xl-6">
                         <div class="image-box tilt-hover-effect mb-50">
-                            <img src="images/about/about1.png" alt="">
-                            <img class="floating-img1" src="images/about/about-floating-img1.png"
+                            <img src="images/Website_tempplate/Daycare-Templatest-img1.png" alt="">
+                            <img class="floating-img1" src="images/Website_tempplate/Daycare-Templatest-img2.png"
                                  alt="">
                         </div>
                     </div>
