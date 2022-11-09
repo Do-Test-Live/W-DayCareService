@@ -70,8 +70,8 @@ include("includes/rightSidePanel.php")
                                 <div class="row align-items-center">
                                     <div class="col-md-12 col-lg-6 col-xl-6">
                                         <div class="image-box tilt-hover-effect mb-50">
-                                            <img src="images/web_support/Don’t-Let-Your-img1.png" alt="Web Support">
-                                            <img class="floating-img1" src="images/web_support/Don’t-Let-Your-img2.png"
+                                            <img src="images/web_support/img1.png" alt="Web Support">
+                                            <img class="floating-img1" src="images/web_support/img2.png"
                                                  alt="Web Support">
                                         </div>
                                     </div>
@@ -138,8 +138,8 @@ include("includes/rightSidePanel.php")
                                 <div class="row align-items-center">
                                     <div class="col-md-12 col-lg-6 col-xl-6">
                                         <div class="image-box tilt-hover-effect mb-50">
-                                            <img src="images/web_support/Don’t-Let-Your-Website-Get-Stale-img1.png" alt="">
-                                            <img class="floating-img1" src="images/web_support/Don’t-Let-Your-Website-Get-Stale-img2.png"
+                                            <img src="images/web_support/GetStaleimg1.png" alt="">
+                                            <img class="floating-img1" src="images/web_support/GetStaleimg2.png"
                                                  alt="">
                                         </div>
                                     </div>

@@ -6,17 +6,54 @@
     $page = 'contact';
     include("includes/head.php");
     if (isset($_POST['submit'])) {
-        $name = mysqli_real_escape_string($con,$_POST['form_name']);
-        $email = mysqli_real_escape_string($con,$_POST['form_email']);
-        $subject = mysqli_real_escape_string($con,$_POST['form_subject']);
-        $phone = mysqli_real_escape_string($con,$_POST['form_phone']);
-        $message = mysqli_real_escape_string($con,$_POST['form_message']);
+        $name = mysqli_real_escape_string($con, $_POST['form_name']);
+        $email = mysqli_real_escape_string($con, $_POST['form_email']);
+        $subject = mysqli_real_escape_string($con, $_POST['form_subject']);
+        $phone = mysqli_real_escape_string($con, $_POST['form_phone']);
+        $message = mysqli_real_escape_string($con, $_POST['form_message']);
         $query = $con->query("INSERT INTO `query`(`name`, `email`, `subject`, `phone`, `message`) VALUES ('$name','$email','$subject','$phone','$message')");
-        if ($query){
-            echo '<script type="text/javascript">';
-            echo "alert('Data inserted successfully');";
-            echo '</script>';
-        }else{
+        if ($query) {
+            $email_to = $email;
+            $subject = 'Email From Day Care Deviser';
+            $userName = $name;
+            $l = strtolower($userName);
+            $u = ucfirst($l);
+
+
+            $headers = "From: Day Care Deviser <info@daycaredeviser.com>\r\n";
+            $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+
+            $messege = "
+            <html>
+                <body style='background-color: #eee; font-size: 16px;'>
+                <div style='max-width: 600px; min-width: 200px; background-color: #ffffff; padding: 20px; margin: auto;'>
+                
+                    <div style='text-align: center'>
+                        <img src='https://daycaredeviser.com/banner.jpg' style='width:100 %'/>
+                    </div>
+                    <h3 style='color:black'>Hi </h3>
+                
+                    <p style='text-align: center;color:green;font-weight:bold'>Thank you for reaching out us!</p>
+                
+                    <p style='color:black'>Our team is excited to join you on your journey with us!<br>
+                        We look forward to speaking with you. One of our team member will contact you very soon.<br>
+                        If there are any changes to your contact information or availability, please let us know by <a href='mailto:info@daycaredeviser.com'>info@daycaredeviser.com</a>
+                        
+                    </p>
+                
+                    <p style='color:black;text-align: center'>
+                        <a href='https://daycaredeviser.com' target='_blank'><button style='padding: 20px; background-color: #341c77;color: #ffffff;' >Visit our Website</button></a>
+                    </p>
+                </div>
+                </body>
+            </html>";
+
+            if (mail($email_to, $subject, $messege, $headers)) {
+                echo '<script type="text/javascript">';
+                echo "alert('Data inserted successfully');";
+                echo '</script>';
+            }
+        } else {
             echo '<script type="text/javascript">';
             echo "alert('Sorry Something went wrong');";
             echo '</script>';
@@ -176,7 +213,8 @@ include("includes/rightSidePanel.php")
                                     <div class="mb-3">
                                         <label style="font-size: 50px" id="captcha"></label>
                                         <input name="form_result" id="form_result" class="form-control" type="text"
-                                               placeholder="Enter the Result" required onkeydown="validation()" onkeyup="validation()">
+                                               placeholder="Enter the Result" required onkeydown="validation()"
+                                               onkeyup="validation()">
                                     </div>
                                 </div>
                                 <div class="mb-3">
@@ -197,15 +235,17 @@ include("includes/rightSidePanel.php")
                                 let b = Math.floor(Math.random() * 10) + 1
                                 let c = a + b
                                 document.getElementById("captcha").innerHTML = a + ' + ' + b;
-                                function validation(){
+
+                                function validation() {
                                     let form_result = document.getElementById("form_result").value
                                     let btn = document.getElementById('form_submit')
-                                    if(form_result != c){
+                                    if (form_result != c) {
                                         btn.disabled = true;
-                                    }else{
+                                    } else {
                                         btn.disabled = false;
                                     }
                                 }
+
                                 (function ($) {
                                     $("#contact_form").validate({
                                         submitHandler: function (form) {
