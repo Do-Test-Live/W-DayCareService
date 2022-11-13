@@ -389,9 +389,9 @@ include("includes/rightSidePanel.php");
                                                 <div class="tm-gallery">
                                                     <div class="tm-gallery-inner">
                                                         <div class="thumb">
-                                                            <a href="#">
+                                                            <a href="https://day-care-service.github.io/Day-Care-3/" target="_blank">
                                                                 <img width="672" height="448"
-                                                                     src="images/gallery/masonry-tiles-4col.jpg"
+                                                                     src="images/gallery/3.1.jpg"
                                                                      class="" alt=""/>
                                                             </a>
                                                         </div>
@@ -404,15 +404,14 @@ include("includes/rightSidePanel.php");
                                                                                data-exthumbimage="images/gallery/1.jpg"
                                                                                data-src="images/gallery/1.jpg"
                                                                                title="Gallery 1"
-                                                                               href="images/gallery/1.jpg"><i
+                                                                               href="images/gallery/3.1.jpg"><i
                                                                                         class="fa fa-plus"></i></a>
                                                                             <a class="styled-icons-item"
-                                                                               title="Gallery 1" href="#"><i
+                                                                               title="Gallery 1" href="https://day-care-service.github.io/Day-Care-3/" target="_blank"><i
                                                                                         class="fa fa-link"></i></a>
                                                                         </div>
                                                                         <div class="title-holder">
-                                                                            <h5 class="title"><a href="#">Project
-                                                                                    Name</a></h5>
+                                                                            <h5 class="title"><a href="https://day-care-service.github.io/Day-Care-3/">Project 1</a></h5>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -425,175 +424,14 @@ include("includes/rightSidePanel.php");
                                         <!-- Isotope Item End -->
 
                                         <!-- Isotope Item Start -->
-                                        <div class="isotope-item cat1 cat3">
+                                        <div class="isotope-item cat1">
                                             <div class="isotope-item-inner">
                                                 <div class="tm-gallery">
                                                     <div class="tm-gallery-inner">
                                                         <div class="thumb">
-                                                            <a href="#">
-                                                                <img width="672" height="448" src="images/gallery/3.jpg"
-                                                                     class="" alt=""/>
-                                                            </a>
-                                                        </div>
-                                                        <div class="tm-gallery-content-wrapper">
-                                                            <div class="tm-gallery-content">
-                                                                <div class="tm-gallery-content-inner">
-                                                                    <div class="icons-holder-inner">
-                                                                        <div class="styled-icons icon-lg icon-dark icon-circled icon-theme-colored1">
-                                                                            <a class="lightgallery-trigger styled-icons-item"
-                                                                               data-exthumbimage="images/gallery/3.jpg"
-                                                                               data-src="images/gallery/3.jpg"
-                                                                               title="Gallery 3"
-                                                                               href="images/gallery/3.jpg"><i
-                                                                                        class="fa fa-plus"></i></a>
-                                                                            <a class="styled-icons-item"
-                                                                               title="Gallery 3" href="#"><i
-                                                                                        class="fa fa-link"></i></a>
-                                                                        </div>
-                                                                        <div class="title-holder">
-                                                                            <h5 class="title"><a href="#">Project
-                                                                                    Name</a></h5>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Isotope Item End -->
-
-                                        <!-- Isotope Item Start -->
-                                        <div class="isotope-item cat2 cat3">
-                                            <div class="isotope-item-inner">
-                                                <div class="tm-gallery">
-                                                    <div class="tm-gallery-inner">
-                                                        <div class="thumb">
-                                                            <a href="#">
+                                                            <a href="https://day-care-service.github.io/Day-Care-3/index-02.html" target="_blank">
                                                                 <img width="672" height="448"
-                                                                     src="images/gallery/masonry-tiles-3col-height.jpg"
-                                                                     class="" alt=""/>
-                                                            </a>
-                                                        </div>
-                                                        <div class="tm-gallery-content-wrapper">
-                                                            <div class="tm-gallery-content">
-                                                                <div class="tm-gallery-content-inner">
-                                                                    <div class="icons-holder-inner">
-                                                                        <div class="styled-icons icon-lg icon-dark icon-circled icon-theme-colored1">
-                                                                            <a class="lightgallery-trigger styled-icons-item"
-                                                                               data-exthumbimage="images/gallery/2.jpg"
-                                                                               data-src="images/gallery/2.jpg"
-                                                                               title="Gallery 2"
-                                                                               href="images/gallery/2.jpg"><i
-                                                                                        class="fa fa-plus"></i></a>
-                                                                            <a class="styled-icons-item"
-                                                                               title="Gallery 2" href="#"><i
-                                                                                        class="fa fa-link"></i></a>
-                                                                        </div>
-                                                                        <div class="title-holder">
-                                                                            <h5 class="title"><a href="#">Project
-                                                                                    Name</a></h5>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Isotope Item End -->
-
-                                        <!-- Isotope Item Start -->
-                                        <div class="isotope-item cat2 cat3">
-                                            <div class="isotope-item-inner">
-                                                <div class="tm-gallery">
-                                                    <div class="tm-gallery-inner">
-                                                        <div class="thumb">
-                                                            <a href="#">
-                                                                <img width="672" height="448"
-                                                                     src="images/gallery/masonry-3col.jpg" class=""
-                                                                     alt=""/>
-                                                            </a>
-                                                        </div>
-                                                        <div class="tm-gallery-content-wrapper">
-                                                            <div class="tm-gallery-content">
-                                                                <div class="tm-gallery-content-inner">
-                                                                    <div class="icons-holder-inner">
-                                                                        <div class="styled-icons icon-lg icon-dark icon-circled icon-theme-colored1">
-                                                                            <a class="lightgallery-trigger styled-icons-item"
-                                                                               data-exthumbimage="images/gallery/2.jpg"
-                                                                               data-src="images/gallery/2.jpg"
-                                                                               title="Gallery 2"
-                                                                               href="images/gallery/2.jpg"><i
-                                                                                        class="fa fa-plus"></i></a>
-                                                                            <a class="styled-icons-item"
-                                                                               title="Gallery 2" href="#"><i
-                                                                                        class="fa fa-link"></i></a>
-                                                                        </div>
-                                                                        <div class="title-holder">
-                                                                            <h5 class="title"><a href="#">Project
-                                                                                    Name</a></h5>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Isotope Item End -->
-
-                                        <!-- Isotope Item Start -->
-                                        <div class="isotope-item cat2 cat3">
-                                            <div class="isotope-item-inner">
-                                                <div class="tm-gallery">
-                                                    <div class="tm-gallery-inner">
-                                                        <div class="thumb">
-                                                            <a href="#">
-                                                                <img width="672" height="448" src="images/gallery/2.jpg"
-                                                                     class="" alt=""/>
-                                                            </a>
-                                                        </div>
-                                                        <div class="tm-gallery-content-wrapper">
-                                                            <div class="tm-gallery-content">
-                                                                <div class="tm-gallery-content-inner">
-                                                                    <div class="icons-holder-inner">
-                                                                        <div class="styled-icons icon-lg icon-dark icon-circled icon-theme-colored1">
-                                                                            <a class="lightgallery-trigger styled-icons-item"
-                                                                               data-exthumbimage="images/gallery/2.jpg"
-                                                                               data-src="images/gallery/2.jpg"
-                                                                               title="Gallery 2"
-                                                                               href="images/gallery/2.jpg"><i
-                                                                                        class="fa fa-plus"></i></a>
-                                                                            <a class="styled-icons-item"
-                                                                               title="Gallery 2" href="#"><i
-                                                                                        class="fa fa-link"></i></a>
-                                                                        </div>
-                                                                        <div class="title-holder">
-                                                                            <h5 class="title"><a href="#">Project
-                                                                                    Name</a></h5>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Isotope Item End -->
-
-                                        <!-- Isotope Item Start -->
-                                        <div class="isotope-item cat1 cat2">
-                                            <div class="isotope-item-inner">
-                                                <div class="tm-gallery">
-                                                    <div class="tm-gallery-inner">
-                                                        <div class="thumb">
-                                                            <a href="#">
-                                                                <img width="672" height="448" src="images/gallery/1.jpg"
+                                                                     src="images/gallery/3.2.jpg"
                                                                      class="" alt=""/>
                                                             </a>
                                                         </div>
@@ -606,15 +444,14 @@ include("includes/rightSidePanel.php");
                                                                                data-exthumbimage="images/gallery/1.jpg"
                                                                                data-src="images/gallery/1.jpg"
                                                                                title="Gallery 1"
-                                                                               href="images/gallery/1.jpg"><i
+                                                                               href="images/gallery/3.2.jpg"><i
                                                                                         class="fa fa-plus"></i></a>
                                                                             <a class="styled-icons-item"
-                                                                               title="Gallery 1" href="#"><i
+                                                                               title="Gallery 1" href="https://day-care-service.github.io/Day-Care-3/index-02.html" target="_blank"><i
                                                                                         class="fa fa-link"></i></a>
                                                                         </div>
                                                                         <div class="title-holder">
-                                                                            <h5 class="title"><a href="#">Project
-                                                                                    Name</a></h5>
+                                                                            <h5 class="title"><a href="https://day-care-service.github.io/Day-Care-3/index-02.html">Project 2</a></h5>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -625,6 +462,168 @@ include("includes/rightSidePanel.php");
                                             </div>
                                         </div>
                                         <!-- Isotope Item End -->
+
+                                        <!-- Isotope Item Start -->
+                                        <div class="isotope-item cat1">
+                                            <div class="isotope-item-inner">
+                                                <div class="tm-gallery">
+                                                    <div class="tm-gallery-inner">
+                                                        <div class="thumb">
+                                                            <a href="https://day-care-service.github.io/Day-Care-4/" target="_blank">
+                                                                <img width="672" height="448"
+                                                                     src="images/gallery/4.1.jpg"
+                                                                     class="" alt=""/>
+                                                            </a>
+                                                        </div>
+                                                        <div class="tm-gallery-content-wrapper">
+                                                            <div class="tm-gallery-content">
+                                                                <div class="tm-gallery-content-inner">
+                                                                    <div class="icons-holder-inner">
+                                                                        <div class="styled-icons icon-lg icon-dark icon-circled icon-theme-colored1">
+                                                                            <a class="lightgallery-trigger styled-icons-item"
+                                                                               data-exthumbimage="images/gallery/1.jpg"
+                                                                               data-src="images/gallery/1.jpg"
+                                                                               title="Gallery 1"
+                                                                               href="images/gallery/4.1.jpg"><i
+                                                                                        class="fa fa-plus"></i></a>
+                                                                            <a class="styled-icons-item"
+                                                                               title="Gallery 1" href="https://day-care-service.github.io/Day-Care-4/" target="_blank"><i
+                                                                                        class="fa fa-link"></i></a>
+                                                                        </div>
+                                                                        <div class="title-holder">
+                                                                            <h5 class="title"><a href="https://day-care-service.github.io/Day-Care-4/">Project 3</a></h5>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Isotope Item End -->
+
+                                        <!-- Isotope Item Start -->
+                                        <div class="isotope-item cat1">
+                                            <div class="isotope-item-inner">
+                                                <div class="tm-gallery">
+                                                    <div class="tm-gallery-inner">
+                                                        <div class="thumb">
+                                                            <a href="https://day-care-service.github.io/Day-Care-5/index3.html" target="_blank">
+                                                                <img width="672" height="448"
+                                                                     src="images/gallery/5.3.jpg"
+                                                                     class="" alt=""/>
+                                                            </a>
+                                                        </div>
+                                                        <div class="tm-gallery-content-wrapper">
+                                                            <div class="tm-gallery-content">
+                                                                <div class="tm-gallery-content-inner">
+                                                                    <div class="icons-holder-inner">
+                                                                        <div class="styled-icons icon-lg icon-dark icon-circled icon-theme-colored1">
+                                                                            <a class="lightgallery-trigger styled-icons-item"
+                                                                               data-exthumbimage="images/gallery/1.jpg"
+                                                                               data-src="images/gallery/1.jpg"
+                                                                               title="Gallery 1"
+                                                                               href="images/gallery/5.3.jpg"><i
+                                                                                        class="fa fa-plus"></i></a>
+                                                                            <a class="styled-icons-item"
+                                                                               title="Gallery 1" href="https://day-care-service.github.io/Day-Care-5/index3.html" target="_blank"><i
+                                                                                        class="fa fa-link"></i></a>
+                                                                        </div>
+                                                                        <div class="title-holder">
+                                                                            <h5 class="title"><a href="https://day-care-service.github.io/Day-Care-5/index3.html">Project 4</a></h5>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Isotope Item End -->
+
+                                        <!-- Isotope Item Start -->
+                                        <div class="isotope-item cat1">
+                                            <div class="isotope-item-inner">
+                                                <div class="tm-gallery">
+                                                    <div class="tm-gallery-inner">
+                                                        <div class="thumb">
+                                                            <a href="https://day-care-service.github.io/Day-Care-9/" target="_blank">
+                                                                <img width="672" height="448"
+                                                                     src="images/gallery/9.1.jpg"
+                                                                     class="" alt=""/>
+                                                            </a>
+                                                        </div>
+                                                        <div class="tm-gallery-content-wrapper">
+                                                            <div class="tm-gallery-content">
+                                                                <div class="tm-gallery-content-inner">
+                                                                    <div class="icons-holder-inner">
+                                                                        <div class="styled-icons icon-lg icon-dark icon-circled icon-theme-colored1">
+                                                                            <a class="lightgallery-trigger styled-icons-item"
+                                                                               data-exthumbimage="images/gallery/1.jpg"
+                                                                               data-src="images/gallery/9.1.jpg"
+                                                                               title="Gallery 1"
+                                                                               href="images/gallery/5.3.jpg"><i
+                                                                                        class="fa fa-plus"></i></a>
+                                                                            <a class="styled-icons-item"
+                                                                               title="Gallery 1" href="https://day-care-service.github.io/Day-Care-9/" target="_blank"><i
+                                                                                        class="fa fa-link"></i></a>
+                                                                        </div>
+                                                                        <div class="title-holder">
+                                                                            <h5 class="title"><a href="https://day-care-service.github.io/Day-Care-9/">Project 5</a></h5>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Isotope Item End -->
+
+                                        <!-- Isotope Item Start -->
+                                        <div class="isotope-item cat1">
+                                            <div class="isotope-item-inner">
+                                                <div class="tm-gallery">
+                                                    <div class="tm-gallery-inner">
+                                                        <div class="thumb">
+                                                            <a href="https://day-care-service.github.io/Day-Care-11/" target="_blank">
+                                                                <img width="672" height="448"
+                                                                     src="images/gallery/11.1.jpg"
+                                                                     class="" alt=""/>
+                                                            </a>
+                                                        </div>
+                                                        <div class="tm-gallery-content-wrapper">
+                                                            <div class="tm-gallery-content">
+                                                                <div class="tm-gallery-content-inner">
+                                                                    <div class="icons-holder-inner">
+                                                                        <div class="styled-icons icon-lg icon-dark icon-circled icon-theme-colored1">
+                                                                            <a class="lightgallery-trigger styled-icons-item"
+                                                                               data-exthumbimage="images/gallery/1.jpg"
+                                                                               data-src="https://day-care-service.github.io/Day-Care-11/"
+                                                                               title="Gallery 1"
+                                                                               href="images/gallery/11.1.jpg"><i
+                                                                                        class="fa fa-plus"></i></a>
+                                                                            <a class="styled-icons-item"
+                                                                               title="Gallery 1" href="https://day-care-service.github.io/Day-Care-11/" target="_blank"><i
+                                                                                        class="fa fa-link"></i></a>
+                                                                        </div>
+                                                                        <div class="title-holder">
+                                                                            <h5 class="title"><a href="https://day-care-service.github.io/Day-Care-11/">Project 6</a></h5>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Isotope Item End -->
+
+
 
                                     </div>
                                 </div>
